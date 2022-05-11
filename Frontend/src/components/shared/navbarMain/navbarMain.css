@@ -1,0 +1,88 @@
+.navbar-main {
+  box-shadow: 2px 2px 6px rgba(53, 53, 53, 0.869);
+  color:#18191b !important ;
+  background-color: #f8f9faf3 !important;
+  transition: 0.2s;
+}
+.navbar-main:hover {
+  background-color: #f8f9fa !important;
+}
+@media screen and (max-width: 992px) {
+  .logo-navbar-contain{
+        width: 100%;
+  }   
+}
+.logo-navbar{
+  width: 10rem;
+}
+.navbar a {
+  text-decoration: none;
+  cursor: pointer;
+}
+.input-search-style{
+  background: white;
+  padding: 1px 6px;
+  border: white;
+}
+.input-search-style:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.1rem #00a9bc;
+}
+.btn-search {
+  background-color: transparent;
+  padding: 0;
+  border: none;
+  font-size: 1.5rem;
+}
+.btn-search svg {
+  color: #00a9bc;
+}
+/* hover efect */
+.navbar-links li {
+  list-style: none;
+  position: relative;
+  padding: 0 20px;
+  height: 100%;
+  display: flex;
+}
+.navbar-links li a {
+  font-size: 15px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  padding: 5px 1px;
+  z-index: 1;
+  transition: all 0.5s;
+}
+.navbar-links li:before {
+  content: "";
+  position: absolute;
+  height: 1%;
+  width: 0;
+  color: white !important;
+  background-color: #662581;
+  right: 0;
+  z-index: 0;
+  top: 0;
+  transition: all 0.5s;
+}
+.navbar-links li::after {
+  content: "";
+  position: absolute;
+  height: 1%;
+  width: 0;
+  color: white !important;
+  background-color: #662581;
+  left: 0;
+  z-index: 0;
+  bottom: 0;
+  transition: all 0.5s;
+}
+.navbar-links li:hover:before,
+li:hover::after {
+  width: 100%;
+}
+/* link active */
+.link-active {
+  color: #662581 !important ;
+}

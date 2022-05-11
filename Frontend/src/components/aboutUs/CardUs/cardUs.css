@@ -1,0 +1,56 @@
+.person-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 18rem;
+  height: 460px;
+}
+.img-us-container {
+  border-radius: 50%;
+  height: 312px;
+  transform: scale(0.48);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  width: 400px;
+}
+.img-us-container:hover {
+  transform: scale(0.55);
+}
+.circle-us {
+  border-radius: 50%;
+  height: 380px;
+  width: 380px;
+}
+.description-us-container{
+  height: auto;
+}
+.divider-us {
+  background-color: #00a9bc;
+  height: 4px;
+  width: 160px;
+}
+.name-us {
+  color: #404245;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 16px;
+  text-align: center;
+}
+.profession-us {
+  color: #6e6e6e;
+  font-family: arial;
+  font-size: 17px;
+  font-style: italic;
+  margin-top: 4px;
+}
+
+.us-title {
+  margin: 5rem;
+  margin-top: 10rem;
+  font-size: 8em;
+  text-align: center;
+  color: #662581;
+}
+.icono-linkedin {
+  width: 30px;
+  margin: 5px;
+}
