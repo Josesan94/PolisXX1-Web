@@ -1,32 +1,75 @@
 export const AXES_INFO_INVIRONMENT = [
     {
         id: 1,
-        title: 'Proyectos',
-        subtitle: '',
-        position: '',
-        text: 'Conocé los proyectos en curso y los que propondremos en todo este año'
-    },
-    {
+        title: "Proyectos",
+        list: {
+          item_1: "EBARSU",
+          item_2: "COMPOSTAJE",
+          item_3: "CIRCULAR",
+          item_4: "VERMICOMPOSTAJE Y GEOTUBOS",
+          item_5:"CURSO DE FORMACIÓN EN POLÍTICAS  PÚBLICAS AMBIENTALES"
+        },
+        position: "",
+        text: "Te mostramos un poco mas de nuestra biografía y sobre cada uno de nuestros integrantes",
+        links: {
+          link_1: "/youngsters/about/#quehacemos",
+          link_2: "/youngsters/about/#rol",
+          link_3: "/youngsters/about/#financiamiento",
+        },
+        link: "/youngsters/about",
+        image:
+          "https://media.istockphoto.com/photos/young-people-at-home-with-mobile-phones-sitting-on-the-floor-picture-id1326505439?k=20&m=1326505439&s=612x612&w=0&h=2KB_p75RhUmp9__OFa9Sx6x8AQQFD1PI5JHOMz_zjD0=",
+      },
+      {
         id: 2,
-        title: 'Notas',
-        subtitle: '',
-        position: 'alt',
-        text: 'Notas con mucha información.'
-    },
-    {
+        title: "Notas",
+        list: {
+          item_1: "",
+          item_2: "",
+          item_3: "",
+          item_4: "",
+        },
+        position: "alt",
+        text: "Chequea las notas,encuestas y reportajes que realizamos",
+        links: {
+          link_1: "/youngsters/participation/#webinars",
+          link_2: "/youngsters/participation/#nextEvents",
+          link_3: "",
+        },
+        link: "/youngsters/participation",
+        image:
+          "https://media.istockphoto.com/photos/young-people-at-home-with-mobile-phones-sitting-on-the-floor-picture-id1326505439?k=20&m=1326505439&s=612x612&w=0&h=2KB_p75RhUmp9__OFa9Sx6x8AQQFD1PI5JHOMz_zjD0=",
+      },
+      {
         id: 3,
-        title: 'Normativa',
-        subtitle: '',
-        position: ' ',
-        text: 'Conocé las regulaciones, leyes y normas que rigen la realización de los proyectos de caracter ambiental'
-    },
-    {
+        title: "Normativa",
+        list: {
+          item_1: ">>> 18 EVENTOS >>> ",
+          item_2: "IMPRESION 3D",
+          item_3: "PYTHON 2019",
+          item_4: "NIC BLOCKCHAIN",
+        },
+        position: "",
+        text: "Enterate de las ultimas normativas ambientales recientemente legisladas.",
+        link: "/youngsters/events",
+        image:
+          "https://media.istockphoto.com/photos/young-people-at-home-with-mobile-phones-sitting-on-the-floor-picture-id1326505439?k=20&m=1326505439&s=612x612&w=0&h=2KB_p75RhUmp9__OFa9Sx6x8AQQFD1PI5JHOMz_zjD0=",
+      },
+      {
         id: 4,
-        title: 'Formación',
-        subtitle: '',
-        position: ' ',
-        text: 'Enterate de los cursos, talleres y webinars que tenemos para seguir formandote en el área.'
-    },
+        title: "Formación",
+        list: {
+          item_1: "Curso de Formación Profesional FSOC UBA",
+          item_2: "Cursos presenciales y virtuales",
+          item_3: "Talleres",
+          item_4: "Webinars",
+        },
+        position: "alt",
+        text: "Podes acceder a nuestros cursos, conferencias, talleres y webinars disponibles.",
+        link: "/youngsters/joinus",
+        image:
+          "https://media.istockphoto.com/photos/young-people-at-home-with-mobile-phones-sitting-on-the-floor-picture-id1326505439?k=20&m=1326505439&s=612x612&w=0&h=2KB_p75RhUmp9__OFa9Sx6x8AQQFD1PI5JHOMz_zjD0=",
+      },
 ]
 
 export const AXES_INFO_INVIRONMENT_ITEMS = [
