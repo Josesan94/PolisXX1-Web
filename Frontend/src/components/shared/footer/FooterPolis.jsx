@@ -46,7 +46,7 @@ export const FooterPolis = () => {
 
                 <br />
                 <div className="rights-polis">
-                    <p>  Polis XXI ©Derechos reservados </p>
+                    <p>  FrogDevs ©Derechos reservados </p>
                     <button className="arrowUp" onClick={scrollToTop}  ><FaArrowCircleUp className="mb-1 " /></button>
                 </div>
             </div>

@@ -5,7 +5,7 @@ import {useInView} from 'react-intersection-observer';
 import { Container } from 'react-bootstrap';
 import Title from '../title/Title';
 import ItemAxes from '../itemAxes/ItemAxes';
-import { AXES_INFO_INVIRONMENT_ITEMS } from '../../mocks/axesInfoInvironment';
+import { AXES_INFO_INVIRONMENT_PROJECTS } from '../../mocks/axesInfoInvironment';
 import '../description/description.css'
 
 
@@ -53,7 +53,7 @@ const EnvironmentDescription = () => {
           />
         </motion.div>
         <motion.p
-          className="fortalecimiento my-4 justify-content-center  "
+          className="text-description my-4"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5, duration: 1.5, stiffness: 5 }}

@@ -20,7 +20,7 @@ import { SidebarRedes } from "./components/sidebarRedes/SidebarRedes";
 import Participation from "./pages/Participation";
 import { AboutYoungDescription } from "./components/description/AboutYoungDescription";
 import { ParticipationLayout } from "./components/youngsters/ParticipationLayout";
-
+import EnvironmentProjects from "./components/Environment/EnvironmentProjects";
 
 
 function App() {
@@ -55,6 +55,8 @@ function App() {
           
 
           <Route exact path="/environment" element={<Environment />} />
+          <Route exact path="/environment/projects" element={<EnvironmentProjects  />} />
+
           <Route exact path="/participation" element={<Participation />} />
 
           <Route path="/404" element={<NoMatch />} />
