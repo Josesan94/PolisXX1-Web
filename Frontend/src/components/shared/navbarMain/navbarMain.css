@@ -23,6 +23,12 @@
   background: white;
   padding: 1px 6px;
   border: white;
+  transition-duration: 1s;
+  opacity: 1;
+}
+
+.search-input-opacity {
+ opacity: 0;
 }
 .input-search-style:focus {
   outline: 0;
@@ -44,11 +50,11 @@
   padding: 0 20px;
   height: 100%;
   display: flex;
+  font-family: "Montserrat", sans-serif;
 }
 .navbar-links li a {
   font-size: 15px;
   color: white;
-  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   padding: 5px 1px;
   z-index: 1;
@@ -61,7 +67,7 @@
       padding: 0 10px;
   }
 }
-.navbar-links li:before {
+/* .navbar-links li:before {
   content: "";
   position: absolute;
   height: 1%;
@@ -88,7 +94,7 @@
 .navbar-links li:hover:before,
 li:hover::after {
   width: 100%;
-}
+} */
 /* link active */
 .link-active {
   color: #662581 !important ;

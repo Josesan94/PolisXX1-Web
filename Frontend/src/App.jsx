@@ -49,6 +49,7 @@ function App() {
           <Route exact path="/youngsters" element={<Youngsters />} />
           <Route exact path="/youngsters/about" element={<AboutYoungDescription />} />
           <Route exact path="/youngsters/participation" element={<ParticipationLayout />} />
+          <Route exact path="/youngsters/events" element={<ParticipationLayout />} />
 
 
           <Route exact path="/institutions" element={<Institutions />} />

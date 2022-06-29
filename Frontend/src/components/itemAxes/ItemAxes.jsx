@@ -13,11 +13,11 @@ const ItemAxes = ({infoItems}) => {
             {title}
         </h4>
         <ul 
-            className='col-md-6' 
+            className='col-md-6 text-description' 
         > 
-            <li><p className='item-text'><strong>- </strong>{text1}</p></li>
+            <li><p><strong>- </strong>{text1}</p></li>
             {text2 ? 
-            <li><p className='item-text'><strong>- </strong>{text2}</p></li>
+            <li><p><strong>- </strong>{text2}</p></li>
             :
             <></>
         }

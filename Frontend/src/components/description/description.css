@@ -3,6 +3,8 @@
 .text-description{
     font-family: Montserrat, Helvetica, Times, serif;
     text-align: justify;
-    letter-spacing: 0.3mm;
+    font-size: 15px;
+    letter-spacing: 0.05mm;
+    word-spacing: 0.2mm;
 }
 

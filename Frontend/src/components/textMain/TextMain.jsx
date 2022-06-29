@@ -18,7 +18,7 @@ export const TextMain = () => {
 
   return (
       <div className="d-flex d-md-none justify-content-center align-items-center px-2">
-        <p className='text-main-mobile d-flex flex-column m-5'>
+        <p className='text-main-mobile d-flex flex-column my-1 mx-2'>
             Somos una institución cuyo propósito es fortalecer acciones y lazos comunitarios, la integración, el desarrollo sustentable y el bienestar de la sociedad.
           {verMas && extraContent}
           <span onClick={verMasClick} className="showMore-btn">

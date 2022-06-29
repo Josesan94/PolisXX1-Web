@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Container, Form, Nav, Navbar } from 'react-bootstrap'
 import { FaSearch } from 'react-icons/fa'
 import { NavLink } from 'react-router-dom'
@@ -8,6 +8,18 @@ import './navbarMain.css'
 // import {IoSearchCircle} from 'react-icons/io'
 
 export const NavbarMain = () => {
+
+
+  const [showInput, setShowInput] = useState(false)
+  console.log("🚀 ~ file: NavbarMain.jsx ~ line 14 ~ NavbarMain ~ showInput", showInput)
+  
+
+  const visibleInput = showInput ? "" : "search-input-opacity";
+
+  const showInputSearch = (e) => {
+    setShowInput(!showInput);
+  };
+  
   return (
     <Navbar bg="light" expand="lg" className="sticky-top  navbar-main" >
       <Container className="d-flex align-items-center">
@@ -29,15 +41,16 @@ export const NavbarMain = () => {
             </div>
           </Nav>
         </Navbar.Collapse>
-        <Form className="d-flex">
+        <Form className="d-flex ">
           <input
             type="search"
             placeholder="Buscar"
-            className="me-2 rounded-2 input-search-style"
+            className={`me-2 rounded-2 input-search-style ${visibleInput}`}
             aria-label="Search"
+            
           />
-          <button className="btn-search"><FaSearch className="mb-2" /></button>
         </Form>
+        <button className="btn-search" onClick={showInputSearch} ><FaSearch className="mb-2" /></button>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
       </Container>
     </Navbar>

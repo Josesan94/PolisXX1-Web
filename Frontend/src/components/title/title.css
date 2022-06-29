@@ -52,13 +52,23 @@
 }
 
 
-@media (max-width: 700px) {
+@media (max-width: 650px) {
     .violet-1 {
         color: #662581;
         font-size: 30px !important;
     }
 
+    .sky-1{
+        color: #00a9bc;
+        font-size: 40px !important;
+    }
+
     .violet-2 {
+        color: #662581;
+        font-size: 18px !important;
+    }
+
+    .violet-3{
         color: #662581;
         font-size: 15px !important;
     }

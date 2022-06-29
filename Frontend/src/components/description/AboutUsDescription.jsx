@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import { useInView } from 'react-intersection-observer';
 import { motion, useAnimation } from 'framer-motion/dist/framer-motion';
@@ -27,7 +27,7 @@ function AboutUsDescription() {
         }
     }, [animation, inView])
 
-
+    const [titlePosition, setTitlePosition] = useState(window.innerWidth);
 
     return (
         <Container >
@@ -61,7 +61,8 @@ function AboutUsDescription() {
                             <Title
                                 type='violet-2'
                                 placeholder='Campos de acción'
-                                position='start'
+                                position={titlePosition <= 500 ? 'center' : 'start'}
+
                             />
                         </motion.div>
                         <motion.p className='text-description  my-4 '
@@ -81,7 +82,8 @@ function AboutUsDescription() {
                             <Title
                                 type='violet-2'
                                 placeholder='Nuestro Objetivo'
-                                position='start'
+                                position={titlePosition <= 500 ? 'center' : 'start'}
+
                             />
                         </motion.div>
                         <motion.p className='text-description  my-4 '

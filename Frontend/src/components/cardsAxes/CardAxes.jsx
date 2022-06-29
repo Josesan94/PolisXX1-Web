@@ -21,7 +21,7 @@ export const CardAxes = ({ infoCardAxes }) => {
                 <br />
                 <p className='card-text'>{infoCardAxes.text} </p>
                 <p className="read-more">
-                    <Link to={infoCardAxes.link}>Leer mas</Link>
+                    <Link to={infoCardAxes.link} onClick={() => window.location.replace(infoCardAxes.link)}>Leer mas</Link>
                 </p>
             </div>
         </div>

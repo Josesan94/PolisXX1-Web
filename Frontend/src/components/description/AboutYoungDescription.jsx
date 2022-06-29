@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Container } from 'react-bootstrap';
 import { useInView } from 'react-intersection-observer';
@@ -13,14 +13,14 @@ import './description.css'
 
 
 export const AboutYoungDescription = () => {
-    
+
     const { ref, inView } = useInView();
-    const animation = useAnimation();
+    const animationLeft = useAnimation();
 
     useEffect(() => {
 
         if (inView) {
-            animation.start({
+            animationLeft.start({
                 x: 0,
                 transition: {
                     type: "spring",
@@ -30,10 +30,11 @@ export const AboutYoungDescription = () => {
             })
         }
         if (!inView) {
-            animation.start({ x: '-100vw' })
+            animationLeft.start({ x: '-100vw' })
         }
-    }, [animation, inView])
+    }, [animationLeft, inView])
 
+    const [titlePosition, setTitlePosition] = useState(window.innerWidth);
 
     return (
 
@@ -51,7 +52,7 @@ export const AboutYoungDescription = () => {
                         position='center'
                     />
                 </motion.div>
-                <motion.p className='text-description my-4 justify-content-center '
+                <motion.p className='text-description my-5 justify-content-center '
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ delay: 0.5, duration: 1.5, stiffness: 5 }}
@@ -74,7 +75,7 @@ export const AboutYoungDescription = () => {
                         <Title
                             type='violet-2'
                             placeholder='¿ Qué hacemos ?'
-                            position='start'
+                            position={titlePosition <= 500 ? 'center' : 'start'}
                         />
                     </motion.div>
                     <motion.p className='text-description  my-4 '
@@ -93,19 +94,24 @@ export const AboutYoungDescription = () => {
                         </motion.div>
                     </motion.p>
                 </div>
-                <div id="rol" ref={ref}>
+                <div id="rol" >
                     <motion.div
-                        animate={animation}
+                        initial={{ x: '100vw' }}
+                        animate={{ x: 0 }}
+                        transition={{ type: "spring", delay: 0.5 }}
                     >
                         <Title
-
-                            type='grey-2'
+                            type='violet-2'
                             placeholder='Nuestro rol'
-                            position='start'
+                            position={titlePosition <= 500 ? 'center' : 'start'}
                         />
                     </motion.div>
-                    <motion.p className='text-description  my-4 justify-content-center '
-                        animate={animation} >
+                    <motion.p
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        transition={{ delay: 0.5, duration: 1.5, stiffness: 5 }}
+                        className='text-description  my-4 justify-content-center '
+                    >
                         A nivel insititucional nuestro rol se concentra en tres aspectos. El primero de ellos es mediante la conformación de equipos profesionales para abordar cada temática particular que es presentada en la Asociación Civil. Estos equipos interdiscipinarios, coordinados desde Polis XXI, interpretan y operativizan todas las ideas que finalmente se formalizan en proyectos.
                         <br />
                         <br />
@@ -117,7 +123,7 @@ export const AboutYoungDescription = () => {
                 </div>
                 <div id="financiamiento" ref={ref}>
                     <motion.div
-                        animate={animation}
+                        animate={animationLeft}
                     >
                         <Title
                             type='sky-2'
@@ -126,7 +132,7 @@ export const AboutYoungDescription = () => {
                         />
                     </motion.div>
                     <motion.p className='text-description  my-4 justify-content-center '
-                        animate={animation} >
+                        animate={animationLeft} >
                         Somos una institución cuyo propósito es favorecer la integración, el desarrollo sustentable, y el bienestar de la sociedad y el fortalecimiento de los lazos comunitarios. Para alcanzar dichos objetivos, nuestros equipos profecionales no tienen un fin de lucro más allá edl necesario para sostener su tarea cotidiana en pos de elaborar y ejecutar los proyectos.
                         <br />
                         <br />
@@ -139,7 +145,7 @@ export const AboutYoungDescription = () => {
                         >
                             {AXES_INFO_YOUNG_ABOUT_FINANCIAMIENTO_ITEMS.map((info_items, i) => { return <ItemAxes2 infoItems={info_items} key={i} /> })}
                         </motion.div>
-                        <strong>
+                        <strong className='text-description'>
                             Nuestra Asociación Civil invita a colaborar a aquellas personas e instituciones que quieran realizar un aporte económico en pos de sostener la labor de nuestros equipos en las acciones socio-comunitarias que desarrollamos como institución.
                             <br />
                             <Link to="/participate">Sumate a nuestra lista de colaboradores</Link>

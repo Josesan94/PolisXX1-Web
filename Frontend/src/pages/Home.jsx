@@ -6,7 +6,7 @@ import { CARDS_INFO } from '../mocks/cardsInfoMock'
 function Home() {
   
     return (
-        <Container className="my-5 ">
+        <Container className="my-5">
             <CardsMain cardsInfo={CARDS_INFO} />
         </Container>
     )

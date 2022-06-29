@@ -9,7 +9,7 @@ const CardMain = ({ cardInfo }) => {
             <Card.Body className="d-flex flex-column justify-content-center align-items-center">
                 <Card.Title className={`${cardInfo.width} card-title-style text-center `}>{cardInfo.title}</Card.Title>
                 <div className="card-icon-container d-flex justify-content-center align-items-center">
-                    <Card.Link as={Link} to={cardInfo.link} className="d-flex justify-content-center card-info-icon text-decoration-none">{cardInfo.icon}</Card.Link>
+                    <Card.Link as={Link} to={cardInfo.link} onClick={() => window.location.replace(cardInfo.link)} className="d-flex justify-content-center card-info-icon text-decoration-none">{cardInfo.icon}</Card.Link>
                 </div>
                 <Card.Text className="card-info-text mt-4 text-center">
                     {cardInfo.text}
