@@ -10,7 +10,7 @@
 @media screen and (max-width: 992px) {
   .logo-navbar-contain{
         width: 100%;
-  }   
+  } 
 }
 .logo-navbar{
   width: 10rem;
@@ -23,12 +23,13 @@
   background: white;
   padding: 1px 6px;
   border: white;
-  transition-duration: 1s;
+  transition-duration: 1.5s;
   opacity: 1;
+  width: 150px;
 }
-
 .search-input-opacity {
  opacity: 0;
+ width: 0;
 }
 .input-search-style:focus {
   outline: 0;

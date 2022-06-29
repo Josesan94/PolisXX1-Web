@@ -41,16 +41,17 @@ export const NavbarMain = () => {
             </div>
           </Nav>
         </Navbar.Collapse>
+        <div className="d-flex ">
         <Form className="d-flex ">
           <input
             type="search"
             placeholder="Buscar"
             className={`me-2 rounded-2 input-search-style ${visibleInput}`}
             aria-label="Search"
-            
           />
         </Form>
         <button className="btn-search" onClick={showInputSearch} ><FaSearch className="mb-2" /></button>
+        </div>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
       </Container>
     </Navbar>
