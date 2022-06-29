@@ -11,7 +11,7 @@ function Environment() {
         <Container >
             <Title 
               type='green-1'
-              placeholder='Ambiente'
+              placeholder='AMBIENTE'
               position='center'
               />
             <CardsEnvironment infoAxesEnvironment={AXES_INFO_INVIRONMENT}/>

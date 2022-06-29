@@ -1,9 +1,15 @@
-import React from 'react'
-import { Modal } from 'react-bootstrap';
+import React, { useState } from 'react'
+import { Button, Modal } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import Carousels from '../carousels/Carousels';
 import './stylesSwiper.css'
 
 export const WebinarModal = ({ lgShow, setLgShow, fullscreen, infoModal }) => {
+
+    const [showCarousel, setShowCarousel] = useState(false);
+
+    const handleCloseCarousel = () => setShowCarousel(false);
+    const handleShowCarousel = () => setShowCarousel(true);
 
     return (
         <Modal
@@ -49,16 +55,23 @@ export const WebinarModal = ({ lgShow, setLgShow, fullscreen, infoModal }) => {
                         </h6>
                     }
                     {infoModal?.link_2 ?
-                      <>
-                       Material disponible: <Link to={infoModal?.link_2}>{infoModal?.link_2}</Link>
-                      </>
-                     : ''
+                        <>
+                            Material disponible: <Link to={infoModal?.link_2}>{infoModal?.link_2}</Link>
+                        </>
+                        : ''
                     }
                 </div>
                 <div className='row row-cols-4'>
-                    <img className='img-modal' src={infoModal?.images?.img_2} />
+                    {/* <img className='img-modal' src={infoModal?.images?.img_2} />
                     <img className='img-modal' src={infoModal?.images?.img_3} />
-                    <img className='img-modal' src={infoModal?.images?.img_4} />
+                <img className='img-modal' src={infoModal?.images?.img_4} />*/}
+                    <Button onClick={handleShowCarousel}>Ver Imagenes</Button>
+                    <Modal show={showCarousel} onHide={handleCloseCarousel}
+                          size="lg"
+                          aria-labelledby="contained-modal-title-vcenter"
+                          centered>
+                            <Carousels/>
+                    </Modal>
                 </div>
 
             </Modal.Body>

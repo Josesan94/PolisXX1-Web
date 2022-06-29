@@ -8,7 +8,7 @@ function Youngsters() {
     return (
         <Container >
             <h2 className='text-center my-4 title-axes sky-1'>
-                JÓVENES
+                JOVENES
             </h2>
             <CardsYoungsters
                 infoAxesYoungsters={AXES_INFO_YOUNGSTERS}

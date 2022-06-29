@@ -37,10 +37,16 @@ export const EventModal = ({ lgShow, setLgShow, fullscreen, infoModal }) => {
                 <div>
                     <h6 className="sky-3">{infoModal?.footerText}</h6>
                 </div>
-                <div className='row row-cols-4'>
+                <div className='row row-cols-3' >
+                    <a href='' onClick='' className='' >
                     <img className='img-modal' src={infoModal?.images?.img_2}/>
+                    </a>
+                    <a href='' onClick='' className=''>
                     <img className='img-modal' src={infoModal?.images?.img_3}/>
+                    </a>
+                    <a href='' onClick='' className=''>
                     <img className='img-modal'src={infoModal?.images?.img_4}/>
+                    </a>
                 </div>
 
             </Modal.Body>
