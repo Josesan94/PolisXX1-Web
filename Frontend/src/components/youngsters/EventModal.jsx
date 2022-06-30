@@ -1,8 +1,14 @@
-import React from 'react'
-import { Modal } from 'react-bootstrap';
+import React, { useState } from 'react'
+import { Button, Modal } from 'react-bootstrap';
+import Carousels from '../carousels/Carousels';
 import './stylesSwiper.css'
 
 export const EventModal = ({ lgShow, setLgShow, fullscreen, infoModal }) => {
+
+    const [showCarousel, setShowCarousel] = useState(false);
+
+    const handleCloseCarousel = () => setShowCarousel(false);
+    const handleShowCarousel = () => setShowCarousel(true);
 
     return (
         <Modal
@@ -14,9 +20,9 @@ export const EventModal = ({ lgShow, setLgShow, fullscreen, infoModal }) => {
         >
             <Modal.Header closeButton>
                 <Modal.Title id="example-modal-sizes-title-lg" className="sky-2">
-                   <strong>
-                   {infoModal?.title}   {`(${infoModal?.date})`}
-                    </strong> 
+                    <strong>
+                        {infoModal?.title}   {`(${infoModal?.date})`}
+                    </strong>
                 </Modal.Title>
             </Modal.Header>
             <Modal.Body>
@@ -25,28 +31,30 @@ export const EventModal = ({ lgShow, setLgShow, fullscreen, infoModal }) => {
                 </h6>
                 <div>
                     <p>
-                    {infoModal?.texts?.text_1}
-                    </p>      
+                        {infoModal?.texts?.text_1}
+                    </p>
                     <p>
                         {infoModal?.texts?.text_2}
-                    </p>      
+                    </p>
                     <p>
-                        {infoModal?.texts?.text_3} 
+                        {infoModal?.texts?.text_3}
                     </p>
                 </div>
                 <div>
                     <h6 className="sky-3">{infoModal?.footerText}</h6>
                 </div>
-                <div className='row row-cols-3' >
-                    <a href='' onClick='' className='' >
-                    <img className='img-modal' src={infoModal?.images?.img_2}/>
-                    </a>
-                    <a href='' onClick='' className=''>
-                    <img className='img-modal' src={infoModal?.images?.img_3}/>
-                    </a>
-                    <a href='' onClick='' className=''>
-                    <img className='img-modal'src={infoModal?.images?.img_4}/>
-                    </a>
+                <div className='d-flex justify-content-center my-2' >
+                    <Button className="btn-polis w-50" onClick={handleShowCarousel}>Ver Imagenes</Button>
+                    <Modal
+                        show={showCarousel}
+                        className="modal-carousel"
+                        onHide={handleCloseCarousel}
+                        size="lg"
+                        aria-labelledby="contained-modal-title-vcenter"
+                        centered>
+                        <Carousels imgCarousel={infoModal?.images} />
+
+                    </Modal>
                 </div>
 
             </Modal.Body>

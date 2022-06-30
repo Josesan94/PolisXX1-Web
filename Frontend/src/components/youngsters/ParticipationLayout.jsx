@@ -114,7 +114,7 @@ export const ParticipationLayout = () => {
                                             <Card.Img
                                                 className='img_1'
                                                 variant="top"
-                                                src={evento.images.img_1} />
+                                                src={evento.image_main} />
                                         </div>
                                         <Card.Body>
                                             <ListGroup variant="flush">
@@ -192,7 +192,7 @@ export const ParticipationLayout = () => {
                                             <Card.Img
                                                 className='img_1'
                                                 variant="top"
-                                                src={webinar.images.img_1} />
+                                                src={webinar.image_main} />
                                         </div>
                                         <Card.Body>
                                             <ListGroup variant="flush">

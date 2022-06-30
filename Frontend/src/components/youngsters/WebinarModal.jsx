@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Button, Modal } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import { AXES_INFO_YOUNGSTERS_WEBINARS } from '../../mocks/axesInfoYoungstersMock';
 import Carousels from '../carousels/Carousels';
 import './stylesSwiper.css'
 
@@ -61,16 +62,17 @@ export const WebinarModal = ({ lgShow, setLgShow, fullscreen, infoModal }) => {
                         : ''
                     }
                 </div>
-                <div className='row row-cols-4'>
-                    {/* <img className='img-modal' src={infoModal?.images?.img_2} />
-                    <img className='img-modal' src={infoModal?.images?.img_3} />
-                <img className='img-modal' src={infoModal?.images?.img_4} />*/}
-                    <Button onClick={handleShowCarousel}>Ver Imagenes</Button>
-                    <Modal show={showCarousel} onHide={handleCloseCarousel}
-                          size="lg"
-                          aria-labelledby="contained-modal-title-vcenter"
-                          centered>
-                            <Carousels/>
+                <div  className='d-flex justify-content-center my-2'>
+                    <Button className="btn-polis w-50" onClick={handleShowCarousel}>Ver Imagenes</Button>
+                    <Modal
+                        show={showCarousel}
+                        onHide={handleCloseCarousel}
+                        className="modal-carousel"
+                        size="lg"
+                        aria-labelledby="contained-modal-title-vcenter"
+                        centered>
+                        <Carousels imgCarousel={infoModal?.images} />
+
                     </Modal>
                 </div>
 

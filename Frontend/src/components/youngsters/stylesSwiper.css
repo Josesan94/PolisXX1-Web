@@ -46,12 +46,17 @@ padding: 1rem !important;
 .modal-dialog {
   height: calc(100% - 60px);
 }
-.modal-content {
-  height: 70vh;
-}
 .modal-header {
   height: 50px;
 }
 .model-footer {
   height: 75px;
+}
+ /* carousel modal */
+ .modal-carousel{
+  text-align:center;
+  background-color: rgba(0,0,0,0.7);      
+}
+.modal-carousel:before{
+  content:'';
 }

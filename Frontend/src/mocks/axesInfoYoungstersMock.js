@@ -10,6 +10,7 @@ export const AXES_INFO_YOUNGSTERS = [
     },
     position: "",
     text: "Te mostramos un poco mas de nuestra biografía y sobre cada uno de nuestros integrantes",
+    image_main: "",
     links: {
       link_1: "/youngsters/about/#quehacemos",
       link_2: "/youngsters/about/#rol",
@@ -30,6 +31,7 @@ export const AXES_INFO_YOUNGSTERS = [
     },
     position: "alt",
     text: "Conocé las capacitaciones que se llevaron a cabo",
+    image_maian: "",
     links: {
       link_1: "/youngsters/participation/#webinars",
       link_2: "/youngsters/participation/#nextEvents",
@@ -88,19 +90,24 @@ export const AXES_INFO_YOUNGSTERS_EVENTS = [
     },
     footerText:
       "¡Como Jóvenes de escuelas Secundarias nos comprometemos a  ser parte , porque entendemos que el FUTURO ES HOY!",
+    image_main: "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650384965/POLISXXI/EVENTS/event1s_jubhm4.jpg",
     links: {
       link_1: "https://www.intgovforum.org/multilingual/",
       link_2: "",
       link_3: "",
     },
-    images: {
-      img_1:
-        "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650384965/POLISXXI/EVENTS/event1s_jubhm4.jpg",
-      img_2:
-        "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650384962/POLISXXI/EVENTS/event1_zt1ozy.jpg",
-      img_3: "",
-      img_4: "",
-    },
+    images: [
+      {
+        id: 1,
+        link_img:
+          "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650384965/POLISXXI/EVENTS/event1s_jubhm4.jpg",
+      },
+      {
+        id: 2,
+        link_img:
+          "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650384962/POLISXXI/EVENTS/event1_zt1ozy.jpg",
+      },
+    ],
   },
   {
     id: "2",
@@ -116,19 +123,24 @@ export const AXES_INFO_YOUNGSTERS_EVENTS = [
         "Luego de escucharlas con mucho interés nos dimos cuenta la importancia del rol de una Cultura Digital Responsable. Excelente evento",
     },
     footerText: "¡La experiencia supero al cansancio!",
+    image_main: "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650395435/POLISXXI/EVENTS/unnamed_nhegal.png",
     links: {
       link_1: "",
       link_2: "",
       link_3: "",
     },
-    images: {
-      img_1:
-        "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650395435/POLISXXI/EVENTS/unnamed_nhegal.png",
-      img_2:
-        "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650385577/POLISXXI/EVENTS/unnameds_uc8f89.jpg",
-      img_3: "",
-      img_4: "",
-    },
+    images: [
+      {
+        id: 1,
+        link_img:
+          "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650395435/POLISXXI/EVENTS/unnamed_nhegal.png",
+      },
+      {
+        id: 2,
+        link_img:
+          "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650385577/POLISXXI/EVENTS/unnameds_uc8f89.jpg",
+      },
+    ],
   },
   {
     id: "3",
@@ -144,19 +156,24 @@ export const AXES_INFO_YOUNGSTERS_EVENTS = [
         "Primero debíamos solicitar una beca y esperar la aceptación de un comité ejecutivo quienes no estaban acostumbrados a la presencia de Jóvenes de escuelas Secundarias. Pero fue la insistencia de la Ing. Cavalli  ante este comité ejecutivo, convenciendo a todos en  aceptarnos, fue  así como recibimos  25 becas para participar ",
     },
     footerText: "¡La experiencia supero al cansancio!",
+    image_main: "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650386035/POLISXXI/EVENTS/EVENMT_1_idtqsb.png",
     links: {
       link_1: "",
       link_2: "",
       link_3: "",
     },
-    images: {
-      img_1:
-        "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650386035/POLISXXI/EVENTS/EVENMT_1_idtqsb.png",
-      img_2:
-        "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650385980/POLISXXI/EVENTS/eventyt_zscjcl.jpg",
-      img_3: "",
-      img_4: "",
-    },
+    images: [
+      {
+        id: 1,
+        link_img:
+          "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650386035/POLISXXI/EVENTS/EVENMT_1_idtqsb.png",
+      },
+      {
+        id: 2,
+        link_img:
+          "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650385980/POLISXXI/EVENTS/eventyt_zscjcl.jpg",
+      },
+    ],
   },
   {
     id: "4",
@@ -172,20 +189,29 @@ export const AXES_INFO_YOUNGSTERS_EVENTS = [
         "Era la primera vez que participamos y fue una experiencia muy interesante  al ser esta la  convención anual para la discusión y promoción del lenguaje de programación Python. ",
     },
     footerText: "¡La experiencia supero al cansancio!",
+    image_main: "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650394530/POLISXXI/EVENTS/unnamed_1_gnpvja.png",
     links: {
       link_1: "",
       link_2: "",
       link_3: "",
     },
-    images: {
-      img_1:
-        "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650394530/POLISXXI/EVENTS/unnamed_1_gnpvja.png",
-      img_2:
-        "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650394530/POLISXXI/EVENTS/unnamed_1_m5xfvf.jpg",
-      img_3:
-        "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650394530/POLISXXI/EVENTS/unnamed_iiljew.jpg",
-      img_4: "",
-    },
+    images: [
+      {
+        id: 1,
+        link_img:
+          "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650394530/POLISXXI/EVENTS/unnamed_1_gnpvja.png",
+      },
+      {
+        id: 2,
+        link_img:
+          "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650394530/POLISXXI/EVENTS/unnamed_1_m5xfvf.jpg",
+      },
+      {
+        id: 3,
+        link_img:
+          "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650394530/POLISXXI/EVENTS/unnamed_iiljew.jpg",
+      },
+    ],
   },
   {
     id: "5",
@@ -201,21 +227,34 @@ export const AXES_INFO_YOUNGSTERS_EVENTS = [
         "Los Ingenieros a cargo de la charla además de explicarnos cuales serían nuestras competencias como futuros Ingenieros, nos hablaros de interesantes temas para reflexionar como ¿Que es la Matemática Cuántica? , Cual es la importancia  de la Ciencias de Datos? , ¿Que es la Nanotecnología? Luego de la exposición de los Ingenieros visitamos la Biblioteca, conocimos   sus dinámicas, y luego fuimos a los laboratorios. Como actividad final nos permitieron conocer la sala de conferencia donde se reúne el Consejo Asesor",
     },
     footerText: "¡Excelente experiencia! ",
+    image_main: "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650468448/POLISXXI/EVENTS/f800x450-14240_65686_5050_jrttbb.jpg",
     links: {
       link_1: "",
       link_2: "",
       link_3: "",
     },
-    images: {
-      img_1:
-        "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650468448/POLISXXI/EVENTS/f800x450-14240_65686_5050_jrttbb.jpg",
-      img_2:
-        "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650468327/POLISXXI/EVENTS/IMG-20181114-WA0002_bo3coi.jpg",
-      img_3:
-        "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650468323/POLISXXI/EVENTS/IMG-20181103-WA0017_mvajrz.jpg",
-      img_4:
-        "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650468325/POLISXXI/EVENTS/IMG-20181114-WA0001_xryjaf.jpg",
-    },
+    images: [
+      {
+        id: 1,
+        link_img:
+          "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650468448/POLISXXI/EVENTS/f800x450-14240_65686_5050_jrttbb.jpg",
+      },
+      {
+        id: 2,
+        link_img:
+          "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650468327/POLISXXI/EVENTS/IMG-20181114-WA0002_bo3coi.jpg",
+      },
+      {
+        id: 3,
+        link_img:
+          "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650468323/POLISXXI/EVENTS/IMG-20181103-WA0017_mvajrz.jpg",
+      },
+      {
+        id: 4,
+        link_img:
+          "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650468325/POLISXXI/EVENTS/IMG-20181114-WA0001_xryjaf.jpg",
+      },
+    ],
   },
   {
     id: "6",
@@ -232,19 +271,24 @@ export const AXES_INFO_YOUNGSTERS_EVENTS = [
         "El mismo conto con paneles a cargo de importantes referentes y especialistas, además con talleres y una feria de novedades. También tuvimos la oportunidad de visitar los stands de productos y servicios permitiéndonos conocer al mundo empresarial de insumos de Internet ",
     },
     footerText: "¡Excelente experiencia! ",
+    image_main: "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650468731/POLISXXI/EVENTS/unnamed_2_jeuqbv.jpg",
     links: {
       link_1: "",
       link_2: "",
       link_3: "",
     },
-    images: {
-      img_1:
-        "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650468731/POLISXXI/EVENTS/unnamed_2_jeuqbv.jpg",
-      img_2:
-        "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650468761/POLISXXI/EVENTS/unnamed_3_crppxi.jpg",
-      img_3: "",
-      img_4: "",
-    },
+    images: [
+      {
+        id: 1,
+        link_img:
+          "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650468731/POLISXXI/EVENTS/unnamed_2_jeuqbv.jpg",
+      },
+      {
+        id: 2,
+        link_img:
+          "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650468761/POLISXXI/EVENTS/unnamed_3_crppxi.jpg",
+      },
+    ],
   },
   {
     id: "7",
@@ -261,19 +305,24 @@ export const AXES_INFO_YOUNGSTERS_EVENTS = [
         "Conocimos UNA REALIDAD, solo el 50 % de los argentinos estamos conectados, entonces nos preguntamos y  el resto? No conocíamos a los Proyectos de Redes comunitarias como ALterMundi y Atalaya Sur dos proyectos con la iniciativa de permitir el acceso a Internet a lugares donde los ISP, operadores del Sistema Comercial de Internet, NO LLEGAN ¡! También entendimos cuál es la tarea de ENACOM Entre los disertantes estaba su Director  a quien le  preguntamos si ENACOM  ya no solo debería funcionar como ente regulador, sino que debería facilitar este acceso y promover la alfabetización digital.",
     },
     footerText: "¡Excelente experiencia! ",
+    image_main: "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650469180/POLISXXI/EVENTS/unnamed_b54whd.png",
     links: {
       link_1: "",
       link_2: "",
       link_3: "",
     },
-    images: {
-      img_1:
-        "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650469180/POLISXXI/EVENTS/unnamed_b54whd.png",
-      img_2:
-        "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650469181/POLISXXI/EVENTS/unnamed_2_eu5vzl.png",
-      img_3: "",
-      img_4: "",
-    },
+    images: [
+      {
+        id: 1,
+        link_img:
+          "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650469180/POLISXXI/EVENTS/unnamed_b54whd.png",
+      },
+      {
+        id: 2,
+        link_img:
+          "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650469181/POLISXXI/EVENTS/unnamed_2_eu5vzl.png",
+      },
+    ],
   },
   {
     id: "8",
@@ -290,21 +339,34 @@ export const AXES_INFO_YOUNGSTERS_EVENTS = [
         "Era la primera vez que NIC ARGENTINA visitaba una Escuela Secundaria Técnica, siendo esto una oportunidad para ambos para seguir con otros encuentros.",
     },
     footerText: "¡Excelente experiencia! ",
+    image_main: "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650469741/POLISXXI/EVENTS/unnamed_4_vadwqs.jpg",
     links: {
       link_1: "",
       link_2: "",
       link_3: "",
     },
-    images: {
-      img_1:
-        "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650469741/POLISXXI/EVENTS/unnamed_4_vadwqs.jpg",
-      img_2:
-        "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650469723/POLISXXI/EVENTS/IMG_20190823_085537_129_yemttg.jpg",
-      img_3:
-        "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650469752/POLISXXI/EVENTS/FOTOS_EVENTO_BLOCKCHAIN_uujbd2.jpg",
-      img_4:
-        "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650469779/POLISXXI/EVENTS/FOTOD_EVENTO_BLOCKCHAIN_2_wdxbxb.jpg",
-    },
+    images: [
+      {
+        id: 1,
+        link_img:
+          "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650469741/POLISXXI/EVENTS/unnamed_4_vadwqs.jpg",
+      },
+      {
+        id: 2,
+        link_img:
+          "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650469723/POLISXXI/EVENTS/IMG_20190823_085537_129_yemttg.jpg",
+      },
+      {
+        id: 3,
+        link_img:
+          "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650469752/POLISXXI/EVENTS/FOTOS_EVENTO_BLOCKCHAIN_uujbd2.jpg",
+      },
+      {
+        id: 4,
+        link_img:
+          "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650469779/POLISXXI/EVENTS/FOTOD_EVENTO_BLOCKCHAIN_2_wdxbxb.jpg",
+      },
+    ],
   },
   {
     id: "9",
@@ -322,21 +384,34 @@ export const AXES_INFO_YOUNGSTERS_EVENTS = [
     },
     footerText:
       "¡Jornada llena de curiosidades, con expositoras excelentes. Nuestro compañero gano la entrada para EKOPARTY 2019! ",
+    image_main: "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650395435/POLISXXI/EVENTS/unnamed_nhegal.png",
     links: {
       link_1: "",
       link_2: "",
       link_3: "",
     },
-    images: {
-      img_1:
-        "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650395435/POLISXXI/EVENTS/unnamed_nhegal.png",
-      img_2:
-        "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650470177/POLISXXI/EVENTS/unnamed_5_atij6p.jpg",
-      img_3:
-        "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650470180/POLISXXI/EVENTS/unnamed_6_cz5plq.jpg",
-      img_4:
-        "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650470184/POLISXXI/EVENTS/unnamed_7_pf1ilo.jpg",
-    },
+    images: [
+      {
+        id: 1,
+        link_img:
+          "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650395435/POLISXXI/EVENTS/unnamed_nhegal.png",
+      },
+      {
+        id: 2,
+        link_img:
+          "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650470177/POLISXXI/EVENTS/unnamed_5_atij6p.jpg",
+      },
+      {
+        id: 3,
+        link_img:
+          "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650470180/POLISXXI/EVENTS/unnamed_6_cz5plq.jpg",
+      },
+      {
+        id: 4,
+        link_img:
+          "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650470184/POLISXXI/EVENTS/unnamed_7_pf1ilo.jpg",
+      },
+    ],
   },
   {
     id: "10",
@@ -353,20 +428,29 @@ export const AXES_INFO_YOUNGSTERS_EVENTS = [
         "LEONARDO PIGÑER  CEO y Cofundador de ekoparty. Partner de  Base4 Security, es nuestro referente dentro de este extraordinario espacio de conocimiento y debate.Se sumo a nuestro proyecto dándonos la oportunidad de ser parte. Algunos Jóvenes de 7mo además de ser integrantes del Proyecto Jóvenes XXI de la comunidad Polis XXI Asociación Civil año fueron colaboradores en este evento ayudando a orientar a quienes asistían. Así participaron no solo del evento, sino conocieron cómo se organiza un evento de esta envergadura. Otros abonaron su entrada como alumnos y un joven en particular Esteban, participo por haberla ganado al participar de NotPinkCon 2019.Que suerte!!!! Aquí vemos a Esteban participando y divirtiéndose. Es muy interesante la participación en este evento, no es requisito ser un genio en seguridad Informática, es una oportunidad para conocer compartiendo , de esto se trata . También de conocer y relacionarte con  referentes de  empresas Argentina del sector que ofrecen sus servicios de asesoramiento en el tema. ",
     },
     footerText: "¡Excelente experiencia! ",
+    image_main: "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650470570/POLISXXI/EVENTS/unnamed_3_zxoz1k.png",
     links: {
       link_1: "",
       link_2: "",
       link_3: "",
     },
-    images: {
-      img_1:
-        "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650470570/POLISXXI/EVENTS/unnamed_3_zxoz1k.png",
-      img_2:
-        "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650470574/POLISXXI/EVENTS/unnamed_4_hogtor.png",
-      img_3:
-        "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650470578/POLISXXI/EVENTS/unnamed_8_dyuz7e.jpg",
-      img_4: "",
-    },
+    images: [
+      {
+        id: 1,
+        link_img:
+          "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650470570/POLISXXI/EVENTS/unnamed_3_zxoz1k.png",
+      },
+      {
+        id: 2,
+        link_img:
+          "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650470574/POLISXXI/EVENTS/unnamed_4_hogtor.png",
+      },
+      {
+        id: 3,
+        link_img:
+          "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650470578/POLISXXI/EVENTS/unnamed_8_dyuz7e.jpg",
+      },
+    ],
   },
   {
     id: "11",
@@ -383,21 +467,34 @@ export const AXES_INFO_YOUNGSTERS_EVENTS = [
     },
     footerText:
       "AQUÍ nos acompaña la Dra FALIERO JOHANA especialista en Derecho Informatico .Uno de los temas  más apasionantes , Criptomonedas y su Regulación “ Gracias Johana ¡!",
+    image_main: "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650486959/POLISXXI/EVENTS/unnamed_9_dwkrhm.jpg",
     links: {
       link_1: "",
       link_2: "",
       link_3: "",
     },
-    images: {
-      img_1:
-        "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650486959/POLISXXI/EVENTS/unnamed_9_dwkrhm.jpg",
-      img_2:
-        "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650486961/POLISXXI/EVENTS/unnamed_10_ruwiud.jpg",
-      img_3:
-        "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650486962/POLISXXI/EVENTS/unnamed_11_wyzrtf.jpg",
-      img_4:
-        "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650486964/POLISXXI/EVENTS/unnamed_12_ajip3d.jpg",
-    },
+    images: [
+      {
+        id: 1,
+        link_img:
+          "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650486959/POLISXXI/EVENTS/unnamed_9_dwkrhm.jpg",
+      },
+      {
+        id: 2,
+        link_img:
+          "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650486961/POLISXXI/EVENTS/unnamed_10_ruwiud.jpg",
+      },
+      {
+        id: 3,
+        link_img:
+          "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650486962/POLISXXI/EVENTS/unnamed_11_wyzrtf.jpg",
+      },
+      {
+        id: 4,
+        link_img:
+          "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650486964/POLISXXI/EVENTS/unnamed_12_ajip3d.jpg",
+      },
+    ],
   },
   {
     id: "12",
@@ -415,21 +512,34 @@ export const AXES_INFO_YOUNGSTERS_EVENTS = [
     },
     footerText:
       "Muchas gracias   Sr Messano Oscar  por  permitirnos esta experiencia  como jóvenes estudiantes",
+    image_main: "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650487144/POLISXXI/EVENTS/unnamed_5_wnxtpk.png",
     links: {
       link_1: "",
       link_2: "",
       link_3: "",
     },
-    images: {
-      img_1:
-        "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650487144/POLISXXI/EVENTS/unnamed_5_wnxtpk.png",
-      img_2:
-        "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650487146/POLISXXI/EVENTS/unnamed_13_sg9bts.jpg",
-      img_3:
-        "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650487147/POLISXXI/EVENTS/unnamed_14_xhtoaj.jpg",
-      img_4:
-        "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650486964/POLISXXI/EVENTS/unnamed_12_ajip3d.jpg",
-    },
+    images: [
+      {
+        id: 1,
+        link_img:
+          "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650487144/POLISXXI/EVENTS/unnamed_5_wnxtpk.png",
+      },
+      {
+        id: 2,
+        link_img:
+          "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650487146/POLISXXI/EVENTS/unnamed_13_sg9bts.jpg",
+      },
+      {
+        id: 3,
+        link_img:
+          "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650487147/POLISXXI/EVENTS/unnamed_14_xhtoaj.jpg",
+      },
+      {
+        id: 4,
+        link_img:
+          "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650486964/POLISXXI/EVENTS/unnamed_12_ajip3d.jpg",
+      },
+    ],
   },
   {
     id: "13",
@@ -446,21 +556,34 @@ export const AXES_INFO_YOUNGSTERS_EVENTS = [
         "Tuvimos como premio para los participantes cinco Licencias gratuitas de ESET NOD 32  Antivirus @esetla. La jornada nos deja una gran reflexión, necesitamos como Jóvenes asumir la tarea de  “Generar concientización entre los jóvenes para el uso responsable de las Tecnologías y cuidar nuestra privacidad”",
     },
     footerText: "¡ Gracias a Eset y  a Cecilia, hasta la próxima !",
+    image_main:  "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650572367/POLISXXI/EVENTS/unnamed_16_eycofm.jpg",
     links: {
       link_1: "",
       link_2: "",
       link_3: "",
     },
-    images: {
-      img_1:
-        "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650572367/POLISXXI/EVENTS/unnamed_16_eycofm.jpg",
-      img_2:
-        "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650572370/POLISXXI/EVENTS/unnamed_17_d2htxx.jpg",
-      img_3:
-        "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650572373/POLISXXI/EVENTS/unnamed_18_td4qkv.jpg",
-      img_4:
-        "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650572374/POLISXXI/EVENTS/unnamed_19_rxlcjc.jpg",
-    },
+    images: [
+      {
+        id: 1,
+        link_img:
+          "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650572367/POLISXXI/EVENTS/unnamed_16_eycofm.jpg",
+      },
+      {
+        id: 2,
+        link_img:
+          "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650572370/POLISXXI/EVENTS/unnamed_17_d2htxx.jpg",
+      },
+      {
+        id: 3,
+        link_img:
+          "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650572373/POLISXXI/EVENTS/unnamed_18_td4qkv.jpg",
+      },
+      {
+        id: 4,
+        link_img:
+          "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650572374/POLISXXI/EVENTS/unnamed_19_rxlcjc.jpg",
+      },
+    ],
   },
   {
     id: "14",
@@ -478,21 +601,34 @@ export const AXES_INFO_YOUNGSTERS_EVENTS = [
     },
     footerText:
       "¡ Gracias Julián, fuiste un gran mentor ante los organismos solicitando nos permitan participar !",
+    image_main: "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650572657/POLISXXI/EVENTS/unnamed_20_ns9kf3.jpg",
     links: {
       link_1: "",
       link_2: "",
       link_3: "",
     },
-    images: {
-      img_1:
-        "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650572657/POLISXXI/EVENTS/unnamed_20_ns9kf3.jpg",
-      img_2:
-        "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650572659/POLISXXI/EVENTS/WWWWWWW_mxiscy.png",
-      img_3:
-        "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650572662/POLISXXI/EVENTS/unnamed_21_dnyxhp.jpg",
-      img_4:
-        "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650572663/POLISXXI/EVENTS/unnamed_22_umtmbs.jpg",
-    },
+    images: [
+      {
+        id: 1,
+        link_img:
+          "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650572657/POLISXXI/EVENTS/unnamed_20_ns9kf3.jpg",
+      },
+      {
+        id: 2,
+        link_img:
+          "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650572659/POLISXXI/EVENTS/WWWWWWW_mxiscy.png",
+      },
+      {
+        id: 3,
+        link_img:
+          "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650572662/POLISXXI/EVENTS/unnamed_21_dnyxhp.jpg",
+      },
+      {
+        id: 4,
+        link_img:
+          "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650572663/POLISXXI/EVENTS/unnamed_22_umtmbs.jpg",
+      },
+    ],
   },
   {
     id: "15",
@@ -509,20 +645,29 @@ export const AXES_INFO_YOUNGSTERS_EVENTS = [
     },
     footerText:
       "¡ Gracias al Ing @facundobatista por la invitación responsable de Python Argentina !",
+    image_main: "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650572847/POLISXXI/EVENTS/unnamed_23_k3nips.jpg",
     links: {
       link_1: "",
       link_2: "",
       link_3: "",
     },
-    images: {
-      img_1:
-        "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650572847/POLISXXI/EVENTS/unnamed_23_k3nips.jpg",
-      img_2:
-        "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650572850/POLISXXI/EVENTS/unnamed_24_pfva0a.jpg",
-      img_3:
-        "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650572852/POLISXXI/EVENTS/unnamed_25_wbuyg2.jpg",
-      img_4: "",
-    },
+    images: [
+      {
+        id: 1,
+        link_img:
+          "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650572847/POLISXXI/EVENTS/unnamed_23_k3nips.jpg",
+      },
+      {
+        id: 2,
+        link_img:
+          "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650572850/POLISXXI/EVENTS/unnamed_24_pfva0a.jpg",
+      },
+      {
+        id: 3,
+        link_img:
+          "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650572852/POLISXXI/EVENTS/unnamed_25_wbuyg2.jpg",
+      },
+    ],
   },
   {
     id: "16",
@@ -539,19 +684,24 @@ export const AXES_INFO_YOUNGSTERS_EVENTS = [
     },
     footerText:
       "¡ Gracias a los Ingenieros  que participan de estas charlas para motivar a los Jovenes a seguir  una Formación Universitaria @ingenieriauba !",
+    image_main: "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650468448/POLISXXI/EVENTS/f800x450-14240_65686_5050_jrttbb.jpg",
     links: {
       link_1: "",
       link_2: "",
       link_3: "",
     },
-    images: {
-      img_1:
-        "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650468448/POLISXXI/EVENTS/f800x450-14240_65686_5050_jrttbb.jpg",
-      img_2:
-        "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650573116/POLISXXI/EVENTS/unnamed_26_zguze2.jpg",
-      img_3: "",
-      img_4: "",
-    },
+    images: [
+      {
+        id: 1,
+        link_img:
+          "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650468448/POLISXXI/EVENTS/f800x450-14240_65686_5050_jrttbb.jpg",
+      },
+      {
+        id: 2,
+        link_img:
+          "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650573116/POLISXXI/EVENTS/unnamed_26_zguze2.jpg",
+      },
+    ],
   },
 ];
 
@@ -571,19 +721,24 @@ export const AXES_INFO_YOUNGSTERS_WEBINARS = [
     },
     footerText:
       "La comunidad Polis XXI asociación civil, tuvo la iniciativa de realizar junto su Proyecto Jóvenes XXI. El primer encuentro con el objetivo de ampliar las perspectivas y experiencias. Fomentando la diversidad y  el potenciamiento del conocimiento con un espacio seguro e inclusivo dentro de esta comunidad.!",
+    image_main: "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650574481/POLISXXI/EVENTS/unnamed_6_zgv9v4.png",
     links: {
       link_1: "",
       link_2: "",
       link_3: "",
     },
-    images: {
-      img_1:
-        "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650574481/POLISXXI/EVENTS/unnamed_6_zgv9v4.png",
-      img_2:
-        "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650574481/POLISXXI/EVENTS/unnamed_6_zgv9v4.png",
-      img_3: "",
-      img_4: "",
-    },
+    images: [
+      {
+        id: 1,
+        link_img:
+          "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650574481/POLISXXI/EVENTS/unnamed_6_zgv9v4.png",
+      },
+      {
+        id: 2,
+        link_img:
+          "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650574481/POLISXXI/EVENTS/unnamed_6_zgv9v4.png",
+      },
+    ],
   },
   {
     id: "2",
@@ -600,19 +755,34 @@ export const AXES_INFO_YOUNGSTERS_WEBINARS = [
         "“Buscar empleo es un trabajo “expresó Santiago, “por eso debemos dedicarle tiempo” También nos recomienda: “Deben Investigar los antecedentes de las empresas que buscan postulantes.",
     },
     footerText: "Te invitamos a escuchar este Podcast Episodio I: ",
-    link_1: "https://spoti.fi/318ycAJ",
-    link_2: "",
-    link_3: "",
-    images: {
-      img_1:
-        "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650575059/POLISXXI/EVENTS/unnamed_7_fyppe4.png",
-      img_2:
-        "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650575196/POLISXXI/EVENTS/unnamed_o7xqql.png",
-      img_3:
-        "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650580906/POLISXXI/EVENTS/unnamed_8_pxl360.png",
-      img_4:
-        "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650575201/POLISXXI/EVENTS/unnamed_1_eoh727.png",
+    image_main: "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650575059/POLISXXI/EVENTS/unnamed_7_fyppe4.png",
+    links: {
+      link_1: "https://spoti.fi/318ycAJ",
+      link_2: "",
+      link_3: "",
     },
+    images: [
+      {
+        id: 1,
+        link_img:
+          "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650575059/POLISXXI/EVENTS/unnamed_7_fyppe4.png",
+      },
+      {
+        id: 2,
+        link_img:
+          "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650575196/POLISXXI/EVENTS/unnamed_o7xqql.png",
+      },
+      {
+        id: 3,
+        link_img:
+          "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650580906/POLISXXI/EVENTS/unnamed_8_pxl360.png",
+      },
+      {
+        id: 4,
+        link_img:
+          "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650575201/POLISXXI/EVENTS/unnamed_1_eoh727.png",
+      },
+    ],
   },
   {
     id: "3",
@@ -629,19 +799,34 @@ export const AXES_INFO_YOUNGSTERS_WEBINARS = [
         "Un tema muy interesante fue aprender la importancia de generar una RED de Contactos a fin de ser nuestros referentes otros temas fueron  ¿Qué es el TRABAJO FORMAL y NO FORMAL? ¿Cuáles son sus características?¿Cuáles son sus derechos?",
     },
     footerText: "Te invitamos a escuchar este Podcast Episodio II : ",
-    link_1: "https://spoti.fi/2BC4XeI",
-    link_2: "https://www.youtube.com/watch?v=tHlpuykt2lE",
-    link_3: "",
-    images: {
-      img_1:
-        "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650575059/POLISXXI/EVENTS/unnamed_7_fyppe4.png",
-      img_2:
-        "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650575199/POLISXXI/EVENTS/unnamed_2_ofvwg8.png",
-      img_3:
-        "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650580910/POLISXXI/EVENTS/unnamed_5_eldu72.png",
-      img_4:
-        "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650575197/POLISXXI/EVENTS/unnamed_3_iao1ew.png",
+    image_main:  "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650575059/POLISXXI/EVENTS/unnamed_7_fyppe4.png",
+    links: {
+      link_1: "https://spoti.fi/2BC4XeI",
+      link_2: "https://www.youtube.com/watch?v=tHlpuykt2lE",
+      link_3: "",
     },
+    images: [
+      {
+        id: 1,
+        link_img:
+          "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650575059/POLISXXI/EVENTS/unnamed_7_fyppe4.png",
+      },
+      {
+        id: 2,
+        link_img:
+          "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650575199/POLISXXI/EVENTS/unnamed_2_ofvwg8.png",
+      },
+      {
+        id: 3,
+        link_img:
+          "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650580910/POLISXXI/EVENTS/unnamed_5_eldu72.png",
+      },
+      {
+        id: 4,
+        link_img:
+          "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650575197/POLISXXI/EVENTS/unnamed_3_iao1ew.png",
+      },
+    ],
   },
   {
     id: "4",
@@ -659,20 +844,34 @@ export const AXES_INFO_YOUNGSTERS_WEBINARS = [
     },
     footerText:
       " ¡Recibimos nuestros certificados de participación! Gracias a Polis XXI Asociación Civil Proyecto Jóvenes XXI por tanta entrega.",
-    link_1: "",
-    link_2:
-      "https://www.youtube.com/playlist?list=PLp7mB6WFO1XOkcURMsS74kURdTujuXm8I",
-    link_3: "",
-    images: {
-      img_1:
-        "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650575059/POLISXXI/EVENTS/unnamed_7_fyppe4.png",
-      img_2:
-        "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650581417/POLISXXI/EVENTS/unnamed_12_r2dc7e.png",
-      img_3:
-        "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650581419/POLISXXI/EVENTS/unnamed_11_fmfvfv.png",
-      img_4:
-        "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650581422/POLISXXI/EVENTS/unnamed_9_wbracu.png",
+    image_main: "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650575059/POLISXXI/EVENTS/unnamed_7_fyppe4.png",
+    links: {
+      link_1: "",
+      link_2:"https://www.youtube.com/playlist?list=PLp7mB6WFO1XOkcURMsS74kURdTujuXm8I",
+      link_3: "",
     },
+    images: [
+      {
+        id: 1,
+        link_img:
+          "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650575059/POLISXXI/EVENTS/unnamed_7_fyppe4.png",
+      },
+      {
+        id: 2,
+        link_img:
+          "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650581417/POLISXXI/EVENTS/unnamed_12_r2dc7e.png",
+      },
+      {
+        id: 3,
+        link_img:
+          "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650581419/POLISXXI/EVENTS/unnamed_11_fmfvfv.png",
+      },
+      {
+        id: 4,
+        link_img:
+          "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650581422/POLISXXI/EVENTS/unnamed_9_wbracu.png",
+      },
+    ],
   },
   {
     id: "5",
@@ -690,19 +889,34 @@ export const AXES_INFO_YOUNGSTERS_WEBINARS = [
     },
     footerText:
       " Detallamos 5 perfiles: Pentesters, Analista de Malware, Investigador Forense, Inteligencia de Amenazas y Concientización.",
-    link_1: "",
-    link_2: "https://www.giraantivirus.com/#home",
-    link_3: "",
-    images: {
-      img_1:
-        "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650582241/POLISXXI/EVENTS/unnamed_unamxd.jpg",
-      img_2:
-        "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650582243/POLISXXI/EVENTS/unnamed_15_ywhlxm.png",
-      img_3:
-        "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650582244/POLISXXI/EVENTS/unnamed_14_nbhwgk.png",
-      img_4:
-        "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650582245/POLISXXI/EVENTS/unnamed_13_bserof.png",
+    image_main: "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650582241/POLISXXI/EVENTS/unnamed_unamxd.jpg",
+    links: {
+      link_1: "",
+      link_2: "https://www.giraantivirus.com/#home",
+      link_3: "",
     },
+    images: [
+      {
+        id: 1,
+        link_img:
+          "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650582241/POLISXXI/EVENTS/unnamed_unamxd.jpg",
+      },
+      {
+        id: 2,
+        link_img:
+          "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650582243/POLISXXI/EVENTS/unnamed_15_ywhlxm.png",
+      },
+      {
+        id: 3,
+        link_img:
+          "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650582244/POLISXXI/EVENTS/unnamed_14_nbhwgk.png",
+      },
+      {
+        id: 4,
+        link_img:
+          "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650582245/POLISXXI/EVENTS/unnamed_13_bserof.png",
+      },
+    ],
   },
   {
     id: "6",
@@ -720,17 +934,24 @@ export const AXES_INFO_YOUNGSTERS_WEBINARS = [
     },
     footerText:
       "Es nuestro desafío comprender lo que esta nueva revolución nos plantea, y actuar imaginando el futuro para, en consecuencia, influenciar nuestro presente.",
-    link_1: "",
-    link_2: "https://www.youtube.com/watch?v=EIo3wyohC7U",
-    link_3: "",
-    images: {
-      img_1:
-        "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650582617/POLISXXI/EVENTS/unnamed_16_hapsbv.png",
-      img_2:
-        "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650582619/POLISXXI/EVENTS/unnamed_17_aqk4us.png",
-      img_3: "",
-      img_4: "",
+    image_main: "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650582617/POLISXXI/EVENTS/unnamed_16_hapsbv.png",
+    links: {
+      link_1: "",
+      link_2: "https://www.youtube.com/watch?v=EIo3wyohC7U",
+      link_3: "",
     },
+    images: [
+      {
+        id: 1,
+        link_img:
+          "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650582617/POLISXXI/EVENTS/unnamed_16_hapsbv.png",
+      },
+      {
+        id: 2,
+        link_img:
+          "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650582619/POLISXXI/EVENTS/unnamed_17_aqk4us.png",
+      },
+    ],
   },
   {
     id: "7",
@@ -748,16 +969,33 @@ export const AXES_INFO_YOUNGSTERS_WEBINARS = [
     },
     footerText:
       "Si deseas, podes completar la encuesta mediante el siguiente formulario y así  comenzar a ser parte de este espacio",
-    link_1: "",
-    link_2: "https://docs.google.com/forms/d/e/1FAIpQLSe0FWbAPAqxM0gwN9XmPEW1YaXANCFBJp5LtHvJBgA8oAXtJw/viewform",
-    link_3: "",
-    images: {
-      img_1:
-        "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650583162/POLISXXI/EVENTS/unnamed_18_qdp4c5.png",
-      img_2:
-        "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650583162/POLISXXI/EVENTS/unnamed_19_gpvapo.png",
-      img_3: "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650583164/POLISXXI/EVENTS/unnamed_20_zxc94i.png",
-      img_4: "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650583167/POLISXXI/EVENTS/unnamed_21_iedjeu.png",
+    image_main: "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650583162/POLISXXI/EVENTS/unnamed_18_qdp4c5.png",
+    links: {
+      link_1: "",
+      link_2:
+        "https://docs.google.com/forms/d/e/1FAIpQLSe0FWbAPAqxM0gwN9XmPEW1YaXANCFBJp5LtHvJBgA8oAXtJw/viewform",
+      link_3: "",
     },
+    images: [
+      {
+        id: 1,
+        link_img:"https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650583162/POLISXXI/EVENTS/unnamed_18_qdp4c5.png",
+      },
+      {
+        id: 2,
+        link_img:
+          "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650583162/POLISXXI/EVENTS/unnamed_19_gpvapo.png",
+      },
+      {
+        id: 3,
+        link_img:
+          "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650583164/POLISXXI/EVENTS/unnamed_20_zxc94i.png",
+      },
+      {
+        id: 4,
+        link_img:
+          "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650583167/POLISXXI/EVENTS/unnamed_21_iedjeu.png",
+      },
+    ],
   },
 ];
