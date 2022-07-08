@@ -11,7 +11,7 @@ const TimelineYoung = () => {
     let timelineElements = [
         {
           id: 1,
-          title: "Jovenes egresados nos cuentan su experiencia",
+          title: "Jóvenes egresados nos cuentan su experiencia",
           professor: "Lic. Rodrigues Maria Teresa",
           description:
             "El objetivo de este encuentro era comenzar a debatir sobre los primeros pasos en el mundo laboral y su inserción,fracasos y exitos.",
@@ -20,7 +20,7 @@ const TimelineYoung = () => {
         },
         {
           id: 2,
-          title: "Jovenes y empleo",
+          title: "Jóvenes y empleo",
           professor: "Lic. Navarro Santiago y Lic Bustillo Marcos",
           description:
             "Que es el mercado laboral, habilidades duras y blandas, establecer redes de contacto y ayudas sobre armado de Curriculum Vitae.",

@@ -683,7 +683,7 @@ export const AXES_INFO_YOUNGSTERS_EVENTS = [
         "Participamos de dos jornadas donde conocimos cuales seria el desempeño como Ingeniero en Informática o como   Licenciado en Análisis de Sistema como de otras carreras afines a nuestra formación .",
     },
     footerText:
-      "¡ Gracias a los Ingenieros  que participan de estas charlas para motivar a los Jovenes a seguir  una Formación Universitaria @ingenieriauba !",
+      "¡ Gracias a los Ingenieros  que participan de estas charlas para motivar a los Jóvenes a seguir  una Formación Universitaria @ingenieriauba !",
     image_main: "https://res.cloudinary.com/dcx1rcwvu/image/upload/v1650468448/POLISXXI/EVENTS/f800x450-14240_65686_5050_jrttbb.jpg",
     links: {
       link_1: "",
@@ -708,7 +708,7 @@ export const AXES_INFO_YOUNGSTERS_EVENTS = [
 export const AXES_INFO_YOUNGSTERS_WEBINARS = [
   {
     id: "1",
-    title: "Webinar Jovenes Egresdos 20'",
+    title: "Webinar Jóvenes Egresdos 20'",
     subtitle:
       "Primeros pasos en el Mundo Laboral, su Inserción, las oportunidades y los fracasos.",
     date: "22/06/2020",
@@ -742,7 +742,7 @@ export const AXES_INFO_YOUNGSTERS_WEBINARS = [
   },
   {
     id: "2",
-    title: " Webinar Jovenes y Trabajo Episodio I",
+    title: " Webinar Jóvenes y Trabajo Episodio I",
     subtitle:
       "Este fue nuestro encuentro en época de pandemia. Junto a Polis XXI Asoc. Civil, quien nos acompaña desde el año 2019 junto con su Proyecto Jóvenes XXI.",
     date: "25/06/2020",
@@ -786,7 +786,7 @@ export const AXES_INFO_YOUNGSTERS_WEBINARS = [
   },
   {
     id: "3",
-    title: " Webinar Jovenes y Trabajo Episodio II",
+    title: " Webinar Jóvenes y Trabajo Episodio II",
     subtitle:
       "Este fue nuestro encuentro en época de pandemia. Junto a Polis XXI Asoc. Civil, quien nos acompaña desde el año 2019 junto con su Proyecto Jóvenes XXI.",
     date: "30/06/2020",
@@ -830,7 +830,7 @@ export const AXES_INFO_YOUNGSTERS_WEBINARS = [
   },
   {
     id: "4",
-    title: " Webinar Jovenes y Trabajo Episodio III",
+    title: " Webinar Jóvenes y Trabajo Episodio III",
     subtitle:
       "“Entrevista Proceso de Selección”: Nos visita el Lic. Anauati Teo ",
     date: "18/8/2020",

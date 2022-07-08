@@ -141,7 +141,7 @@ export const AXES_INFO_INVIRONMENT_ITEMS = [
 export const AXES_INFO_YOUNG_ABOUT_ITEMS = [
     {
         id: 1,
-        title: 'Jovenes XXI ',
+        title: 'Jóvenes XXI ',
         text1: 'Proyecto de formación, articulacón y acompañamiento de jóvenes en edad de terminalidad escolar en su transición y acceso al mercado laboral y el mundo de las becas de estudio. Fortalecimineto de políticas de empleo y formación profecional para jóvenes.'
     },
     {
