@@ -26,7 +26,7 @@ export const AXES_INFO_YOUNGSTERS = [
     list: {
       item_1: "Eventos y seminarios",
       item_2: "Webinars",
-      item_3: "Contact",
+      item_3: "Contacto",
       item_4: "",
     },
     position: "alt",
@@ -43,7 +43,7 @@ export const AXES_INFO_YOUNGSTERS = [
   },
   {
     id: 3,
-    title: "Eventos",
+    title: "Eventos próximos",
     list: {
       item_1: ">>> 18 EVENTOS >>> ",
       item_2: "IMPRESION 3D",
@@ -58,16 +58,13 @@ export const AXES_INFO_YOUNGSTERS = [
   },
   {
     id: 4,
-    title: "Sumate",
+    title: "Súmate",
     list: {
-      item_1: "",
-      item_2: "",
-      item_3: "",
-      item_4: "",
+      item_1: "Súmate",
     },
     position: "alt",
     text: "Completa el formulario asi te actualizamos con la ultima información de nuestro portal",
-    link: "/youngsters/joinus",
+    link: "/youngsters/participation/#nextEvents",
     image:
       "https://media.istockphoto.com/photos/young-people-at-home-with-mobile-phones-sitting-on-the-floor-picture-id1326505439?k=20&m=1326505439&s=612x612&w=0&h=2KB_p75RhUmp9__OFa9Sx6x8AQQFD1PI5JHOMz_zjD0=",
   },

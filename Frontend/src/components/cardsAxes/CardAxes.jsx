@@ -20,9 +20,9 @@ export const CardAxes = ({ infoCardAxes }) => {
                 <h1>{(infoCardAxes.title).toUpperCase()}</h1>
                 <br />
                 <p className='card-text'>{infoCardAxes.text} </p>
-                <p className="read-more">
+                {/* <p className="read-more">
                     <Link to={infoCardAxes.link} onClick={() => window.location.replace(infoCardAxes.link)}>Leer mas</Link>
-                </p>
+                </p> */}
             </div>
         </div>
     )

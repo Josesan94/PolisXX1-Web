@@ -25,7 +25,7 @@ export const INFO_CARDS_US = [
     {
         id: 3,
         name: 'Matias Giudice',
-        title: "Abogado",
+        title: "Desarrollador Full Stack.",
         img: Giudice,
         linkedin_link: "https://www.linkedin.com"
     },
@@ -53,7 +53,7 @@ export const INFO_CARDS_US = [
     {
         id: 7,
         name: 'Santiago Saraceno',
-        title: "Abogado",
+        title: "Técnico en Soporte IT",
         img: Saraceno,
         linkedin_link: "https://www.linkedin.com"
     },
@@ -61,6 +61,13 @@ export const INFO_CARDS_US = [
         id: 8,
         name: 'Torrico',
         title: "Abogado",
+        img: Torrico,
+        linkedin_link: "https://www.linkedin.com"
+    },
+    {
+        id: 9,
+        name: 'Nicolás Naceli',
+        title: "Programador, desarrollador web.",
         img: Torrico,
         linkedin_link: "https://www.linkedin.com"
     },

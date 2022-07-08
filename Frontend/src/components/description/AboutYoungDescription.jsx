@@ -56,13 +56,13 @@ export const AboutYoungDescription = () => {
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ delay: 0.5, duration: 1.5, stiffness: 5 }}
-                >Polis XXI es una asociación civil cuyo propósito es porponer e implementar acciones tendientes al desarrollo sostenible y la garantizacion de derechos.
+                >Polis XXI es una asociación civil cuyo propósito es proponer implementar acciones tendientes al desarrollo sostenible y la garantización de derechos.
                     <br />
                     <br />
-                    Los valores que guían nuestros proyectos son: SOSTENIBILIDAD, EQUIDAD, DIALOGO, INTEGRACIÓN, DESARROLLO, TRANSPARENCIA, PROFECIONALISMO Y VOCACIÓN PÚBLICA. Tenemos un enfoque integral, inclusivo e intersectorial.
+                    Los valores que guían nuestros proyectos son: SOSTENIBILIDAD, EQUIDAD, DIÁLOGO, INTEGRACIÓN, DESARROLLO, TRANSPARENCIA, PROFESIONALISMO Y VOCACIÓN PÚBLICA. Tenemos un enfoque integral, inclusivo e intersectorial.
                     <br />
                     <br />
-                    Nuestro campo de acción se basa en la articulación de iniciativas con el sector público y sus instituciones. Como así también con los sectores productivos y de lasociedad civil que demuestran compromiso social y que comparten nuestros valores.
+                    Nuestro campo de acción se basa en la articulación de iniciativas con el sector público y sus instituciones; como así también con los sectores productivos y de la sociedad civil que demuestran compromiso social y que comparten nuestros valores.
                 </motion.p>
             </div>
             <div id='queHacemos'>
@@ -112,13 +112,13 @@ export const AboutYoungDescription = () => {
                         transition={{ delay: 0.5, duration: 1.5, stiffness: 5 }}
                         className='text-description  my-4 justify-content-center '
                     >
-                        A nivel insititucional nuestro rol se concentra en tres aspectos. El primero de ellos es mediante la conformación de equipos profesionales para abordar cada temática particular que es presentada en la Asociación Civil. Estos equipos interdiscipinarios, coordinados desde Polis XXI, interpretan y operativizan todas las ideas que finalmente se formalizan en proyectos.
+                        A nivel institucional nuestro rol se concentra en tres aspectos. El primero de ellos es mediante la conformación de equipos profesionales para abordar cada temática particular que es presentada en la Asociación Civil. Estos equipos interdisciplinarios, coordinados desde Polis XXI, interpretan y operativizan todas las ideas que finalmente se formalizan en proyectos.
                         <br />
                         <br />
                         El segundo rol que asume nuestra institución, entonces, es el de articular los medios necesarios para que estos proyectos con diversos intereses socio-comunitarios sean adoptados por diferentes tipos de instituciones con capacidad de toma de decisiones y financiamiento.
                         <br />
                         <br />
-                        En tercer lugar, Polis XXI ofrece acompañamiento, evaluacion y asesoramiento permanente sobre los proyectos que se concreten como politicas y/o programas.
+                        En tercer lugar, Polis XXI ofrece acompañamiento, evaluación y asesoramiento permanente sobre los proyectos que se concreten como políticas y/o programas.
                     </motion.p>
                 </div>
                 <div id="financiamiento" ref={ref}>
@@ -133,7 +133,7 @@ export const AboutYoungDescription = () => {
                     </motion.div>
                     <motion.p className='text-description  my-4 justify-content-center '
                         animate={animationLeft} >
-                        Somos una institución cuyo propósito es favorecer la integración, el desarrollo sustentable, y el bienestar de la sociedad y el fortalecimiento de los lazos comunitarios. Para alcanzar dichos objetivos, nuestros equipos profecionales no tienen un fin de lucro más allá edl necesario para sostener su tarea cotidiana en pos de elaborar y ejecutar los proyectos.
+                        Somos una institución cuyo propósito es favorecer la integración, el desarrollo sustentable, y el bienestar de la sociedad y el fortalecimiento de los lazos comunitarios. Para alcanzar dichos objetivos, nuestros equipos profesionales no tienen un fin de lucro más allá del necesario para sostener su tarea cotidiana en pos de elaborar y ejecutar los proyectos.
                         <br />
                         <br />
                         Las fuentes de financiamiento de nuestra institución son abiertas, trasparentes y aplicadas a fines específicos. Los fondos administrados por Polis XXI actualmente provienen de:
