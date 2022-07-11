@@ -30,7 +30,7 @@ export const NavbarMain = () => {
           <Nav className="m-auto pb-2  border-0 navbar-links">
             <div className="d-flex  flex-column flex-lg-row align-items-center justify-content-center w-100 navbar-links">
               <li className="p-2 mt-2 mx-3 align-items-center" >
-                <Nav.Link as={NavLink} to="/aboutUs" activeclassname="link-active">NOSOTROS</Nav.Link>
+                <Nav.Link as={NavLink} to="/aboutUs" activeclassname="link-active">SOBRE NOSOTROS</Nav.Link>
               </li>
               <li className="p-2 mt-2 mx-3 align-items-center">
                 <Nav.Link as={NavLink} to="/novelties" activeclassname="link-active">NOVEDADES</Nav.Link>
