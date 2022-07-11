@@ -17,8 +17,8 @@ export const FooterPolis = () => {
                     <div className="footer-col ">
                         <h2>Nosotros</h2>
                         <ul>
-                            <li><Link to='/aboutUs'>Nuestra Historia</Link></li>
-                            <li><Link to='/aboutUs'>Nuestros Valores</Link></li>
+                            <li><Link to='/aboutUs'>Valores y Objetivos</Link></li>
+                            <li><Link to='/youngsters/about'>Nuestro equipo</Link></li>
                         </ul>
                     </div>
                     <div className="footer-col">
@@ -33,12 +33,11 @@ export const FooterPolis = () => {
                     <div className="footer-col">
                         <h2>Nuestras redes</h2>
                         <div className="social-links">
-                           
-                            <Link to=''><FaInstagramSquare className="social-icon" /></Link>
-                            <Link to=''><FaTwitterSquare className="social-icon" /></Link>
-                            <Link to=''><FaLinkedin className="social-icon" /></Link>
-                            <Link to=''><FaTelegram className="social-icon" /></Link>
-                            <Link to=''><FaDiscord className="social-icon" /></Link>
+                            <a href='https://www.instagram.com/polis_xxi/'><FaInstagramSquare className="social-icon" /></a>
+                            <a href='https://twitter.com/XxiPolis'><FaTwitterSquare className="social-icon" /></a>
+                            <a href='https://www.linkedin.com/in/polis-xxi/'><FaLinkedin className="social-icon" /></a>
+                            <a href=' '><FaTelegram className="social-icon" /></a>
+                            <a href=' '><FaDiscord className="social-icon" /></a>
 
                         </div>
                     </div>
