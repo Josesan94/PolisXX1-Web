@@ -66,9 +66,9 @@ const EnvironmentDescription = () => {
           un diagnóstico técnico que devela la urgencia de dar una respuesta
           articulada entre todos los actores del tejido social para mitigar el
           cambio climático y sus efectos nocivos en el ambiente y, en
-          consecuencia, la calidad de vida de las personas y la supervivencia de
+          consecuencia, de mejorar la calidad de vida de las personas y la supervivencia de
           la vida en el planeta. Polis XXI propone un abordaje multidimensional
-          que busca apoyar el desarrollo de biomunicipios fortalecidos en la
+          que busca apoyar el desarrollo de <i>biomunicipios </i>fortalecidos en la
           gestión de sus residuos y su disposición final por soluciones
           sostenibles a nivel económico y ambiental.
         </motion.p>
@@ -87,7 +87,7 @@ const EnvironmentDescription = () => {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5, duration: 1.5, stiffness: 5 }}
         >
-          Entre sus áreas de <strong>investigación</strong>,Polis XXI cuenta con
+          Entre sus áreas de <strong>investigación</strong>, Polis XXI cuenta con
           un eje especializado en el diseño y desarrollo de programas de
           resiliencia ambiental y políticas públicas sustentables. Nuestros{" "}
           <strong>objetivos</strong> son (1) la mitigación del cambio climático

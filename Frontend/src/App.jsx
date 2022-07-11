@@ -21,7 +21,7 @@ import Participation from "./pages/Participation";
 import { AboutYoungDescription } from "./components/description/AboutYoungDescription";
 import { ParticipationLayout } from "./components/youngsters/ParticipationLayout";
 import EnvironmentProjects from "./components/Environment/EnvironmentProjects";
-
+import EnvironmentFormation from "./components/Environment/EnvironmentFormation";
 
 function App() {
   const location = useLocation();
@@ -57,6 +57,7 @@ function App() {
 
           <Route exact path="/environment" element={<Environment />} />
           <Route exact path="/environment/projects" element={<EnvironmentProjects  />} />
+          <Route exact path="/environment/formation" element={<EnvironmentFormation  />} />
 
           <Route exact path="/participation" element={<Participation />} />
 
