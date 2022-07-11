@@ -101,13 +101,13 @@ function AboutUsDescription() {
                     >
                         <Title
                             type='violet-2'
-                            placeholder='¿ Que buscamos ?'
+                            placeholder='NUESTRA MISIÓN'
                             position='center'
                         />
                     </motion.div>
                     <motion.p className='text-description  my-4 justify-content-center '
                         animate={animation} >
-                        Buscamos ser referenciados como un actor capaz de crear y fortalecer proyectos con impacto positivo en la sostenibilidad y el desarrollo, generando formas de crecimiento que mejoren las condiciones de las actuales generaciones sin comprometer los recursos de las futuras,facilitando herramientas de diagnóstico e implementación de políticas públicas y cimentando plataformas de diálogo y articulación intersectoriales
+                        Buscamos constituirnos y consolidarnos como un actor capaz de crear y fortalecer proyectos con impacto positivo en la sostenibilidad y el desarrollo, generando formas de crecimiento que mejoren las condiciones de las actuales generaciones sin comprometer los recursos de las futuras, facilitando herramientas de diagnóstico e implementación de políticas públicas y cimentando plataformas de diálogo y articulación intersectoriales.
                     </motion.p>
                 </div>
             </div>

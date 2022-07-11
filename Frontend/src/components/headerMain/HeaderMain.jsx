@@ -11,10 +11,11 @@ export const HeaderMain = () => {
             {/* <TextMain /> */}
             <div className="d-none d-md-flex justify-content-center align-items-center px-2 text-center" >
                 <p className='text-main d-flex flex-column mx-4 mt-2 jusfity-content-center'>
-                    Somos una institución cuyo propósito es fortalecer acciones y lazos comunitarios, la integración, el desarrollo sustentable y el bienestar de la sociedad.
+                Laboratorio de iniciativas para la gestión de Ciudades Sostenibles
+                    {/* Somos una institución cuyo propósito es fortalecer acciones y lazos comunitarios, la integración, el desarrollo sustentable y el bienestar de la sociedad.
                     <br /> 
-                    Para alcanzar dichos objetivos, nuestros equipos profesionales necesitan de la colaboración de nuestros socixs, colaboradores y suscriptores. Gracias a todos que con sus aportes nos permiten seguir trabajando y ampliando todos los proyectos día a día.
-                    <Link to='/participate' className='text-center text-add'> Sumate a nuestra lista de colaboradores</Link>
+                    Para alcanzar dichos objetivos, nuestros equipos profesionales necesitan de la contribución de nuestros socixs, colaboradores y suscriptores. Gracias a todos los que, con sus aportes, nos permiten seguir trabajando y ampliando todos los proyectos día a día.
+                    <Link to='/participate' className='text-center text-add'> Sumate a nuestra lista de colaboradores</Link> */}
                 </p>
             </div>
             <TextMain/>         

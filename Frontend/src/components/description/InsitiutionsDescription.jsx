@@ -37,7 +37,7 @@ function InstitutionsDescription() {
         <Container>
             <Title
                 type='violet-1'
-                placeholder='Fortalecimiento Institucional'
+                placeholder='FORTALECIMIENTO INSTITUCIONAL'
                 position='center'
             />
             <div className="mt-5">
@@ -78,7 +78,7 @@ function InstitutionsDescription() {
                     animate={{ opacity: 1 }}
                     transition={{ delay: 0.5, duration: 1.5, stiffness: 5 }}
                 >
-                    Conformamos <strong>equipos interdisciplinados</strong>, con la unión de profesionales experimentados en la gestión pública,
+                    Conformamos <strong>equipos interdisciplinarios</strong>, con la unión de profesionales experimentados en la gestión pública,
                     el ámbito académico y el sector privado, para el  <strong>diseño de programas y capacitaciones</strong> específicas destinadas a <strong>agentes del sector público</strong> y a <strong>trabajadores del sector privado aplicados a la Responsabilidad Social Empresarial.</strong>
                 </motion.p>
                 <motion.div

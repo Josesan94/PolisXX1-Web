@@ -30,7 +30,7 @@ export const AXES_INFO_INVIRONMENT = [
           item_4: "",
         },
         position: "alt",
-        text: "Chequea las notas,encuestas y reportajes que realizamos",
+        text: "Chequeá las notas,encuestas y reportajes que realizamos",
         links: {
           link_1: "/youngsters/participation/#webinars",
           link_2: "/youngsters/participation/#nextEvents",
@@ -59,14 +59,11 @@ export const AXES_INFO_INVIRONMENT = [
         id: 4,
         title: "Formación",
         list: {
-          item_1: "Curso de Formación Profesional FSOC UBA",
-          item_2: "Cursos presenciales y virtuales",
-          item_3: "Talleres",
-          item_4: "Webinars",
+          item_1: "CURSO DE FORMACIÓN EN POLÍTICAS PÚBLICAS AMBIENTALES.",
         },
         position: "alt",
-        text: "Podes acceder a nuestros cursos, conferencias, talleres y webinars disponibles.",
-        link: "/youngsters/joinus",
+        text: "Enterate de las últimas novedades en materia de normativa ambiental",
+        link: "/environment/formation",
         image:
           "https://media.istockphoto.com/photos/young-people-at-home-with-mobile-phones-sitting-on-the-floor-picture-id1326505439?k=20&m=1326505439&s=612x612&w=0&h=2KB_p75RhUmp9__OFa9Sx6x8AQQFD1PI5JHOMz_zjD0=",
       },
@@ -105,6 +102,15 @@ export const AXES_INFO_INVIRONMENT_PROJECTS = [
   },
   {
     id:6,
+    title:"CURSO DE FORMACIÓN EN POLÍTICAS  PÚBLICAS AMBIENTALES",
+    text1:"El curso propone una introducción a la problemática ambiental a  partir de conceptos clave que hacen a su entendimiento: contaminación atmosférica, del agua y del suelo, calidad  ambiental, indicadores ambientales, Residuos Sólidos Urbanos,  agroquímicos y salud. Sobre esta base, se presenta el marco  legislativo que aplica en Argentina a nivel nacional, subnacional y  local, junto a sus interpretaciones, utilizando casos como  ejemplos prácticos e ilustradores. Por último, el contenido se aboca al abordaje de la sostenibilidad,  explicando la relación entre cuidado del ambiente y crecimiento,  el rol municipal en el desarrollo de ciudades sostenibles, cómo  gestionar y buenas prácticas de gobierno en el tratamiento de  RSU, y alternativas para mitigar el cambio climático.",
+    text2:"Los contenidos abarcados en el curso permiten una mejor  comprensión a nivel conceptual de la problemática ambiental al  mismo tiempo que brindan estadísticas e información que  permitan dimensionar y realizar un correcto acercamiento  respecto a dónde se encuentra Argentina en cuanto a políticas  públicas ambientales. Asimismo, otorga elementos para el diseño  de políticas públicas sostenibles e innovadoras.  Este proyecto se elabora en el marco de lo dispuesto en la  Agenda 2030 para el Desarrollo Sostenible, con el objetivo de  proveer al Estado en todos sus niveles de Gobierno herramientas  que les permitan asumir políticas públicas que tiendan a la  sostenibilidad y cuidado del ambiente."
+  }
+]
+
+export const AXES_INFO_INVIRONMENT_FORMATION = [
+  {
+    id:1,
     title:"CURSO DE FORMACIÓN EN POLÍTICAS  PÚBLICAS AMBIENTALES",
     text1:"El curso propone una introducción a la problemática ambiental a  partir de conceptos clave que hacen a su entendimiento: contaminación atmosférica, del agua y del suelo, calidad  ambiental, indicadores ambientales, Residuos Sólidos Urbanos,  agroquímicos y salud. Sobre esta base, se presenta el marco  legislativo que aplica en Argentina a nivel nacional, subnacional y  local, junto a sus interpretaciones, utilizando casos como  ejemplos prácticos e ilustradores. Por último, el contenido se aboca al abordaje de la sostenibilidad,  explicando la relación entre cuidado del ambiente y crecimiento,  el rol municipal en el desarrollo de ciudades sostenibles, cómo  gestionar y buenas prácticas de gobierno en el tratamiento de  RSU, y alternativas para mitigar el cambio climático.",
     text2:"Los contenidos abarcados en el curso permiten una mejor  comprensión a nivel conceptual de la problemática ambiental al  mismo tiempo que brindan estadísticas e información que  permitan dimensionar y realizar un correcto acercamiento  respecto a dónde se encuentra Argentina en cuanto a políticas  públicas ambientales. Asimismo, otorga elementos para el diseño  de políticas públicas sostenibles e innovadoras.  Este proyecto se elabora en el marco de lo dispuesto en la  Agenda 2030 para el Desarrollo Sostenible, con el objetivo de  proveer al Estado en todos sus niveles de Gobierno herramientas  que les permitan asumir políticas públicas que tiendan a la  sostenibilidad y cuidado del ambiente."
@@ -179,3 +185,5 @@ export const AXES_INFO_YOUNG_ABOUT_FINANCIAMIENTO_ITEMS = [
         text1: 'aquellas instituciones que hacen propias nuestras iniciativas, y traen consigo la capacidad económica de sostener los recursos físicos y humanos.',
     },
 ]
+
+
