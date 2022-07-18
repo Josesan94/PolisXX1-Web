@@ -1,3 +1,9 @@
+import notas from '../assets/cards/CARD-AMBIENTE-NOTAS.png'
+import formacion from '../assets/cards/CARD-AMBIENTE-FORMACION.png'
+import normativa from '../assets/cards/CARD-AMBIENTE-NORMATIVA.png'
+import proyectos from '../assets/cards/CARD-AMBIENTE-PROYECTOS.png'
+
+
 export const AXES_INFO_INVIRONMENT = [
     {
         id: 1,
@@ -17,8 +23,7 @@ export const AXES_INFO_INVIRONMENT = [
           link_3: "/environment/projects",
         },
         link: "/environment/projects",
-        image:
-          "https://media.istockphoto.com/photos/young-people-at-home-with-mobile-phones-sitting-on-the-floor-picture-id1326505439?k=20&m=1326505439&s=612x612&w=0&h=2KB_p75RhUmp9__OFa9Sx6x8AQQFD1PI5JHOMz_zjD0=",
+        image: proyectos,
       },
       {
         id: 2,
@@ -37,8 +42,7 @@ export const AXES_INFO_INVIRONMENT = [
           link_3: "",
         },
         link: "/youngsters/participation",
-        image:
-          "https://media.istockphoto.com/photos/young-people-at-home-with-mobile-phones-sitting-on-the-floor-picture-id1326505439?k=20&m=1326505439&s=612x612&w=0&h=2KB_p75RhUmp9__OFa9Sx6x8AQQFD1PI5JHOMz_zjD0=",
+        image: notas,
       },
       {
         id: 3,
@@ -52,8 +56,7 @@ export const AXES_INFO_INVIRONMENT = [
         position: "",
         text: "Enterate de las ultimas normativas ambientales recientemente legisladas.",
         link: "/youngsters/events",
-        image:
-          "https://media.istockphoto.com/photos/young-people-at-home-with-mobile-phones-sitting-on-the-floor-picture-id1326505439?k=20&m=1326505439&s=612x612&w=0&h=2KB_p75RhUmp9__OFa9Sx6x8AQQFD1PI5JHOMz_zjD0=",
+        image: normativa,
       },
       {
         id: 4,
@@ -64,8 +67,7 @@ export const AXES_INFO_INVIRONMENT = [
         position: "alt",
         text: "Enterate de las últimas novedades en materia de normativa ambiental",
         link: "/environment/formation",
-        image:
-          "https://media.istockphoto.com/photos/young-people-at-home-with-mobile-phones-sitting-on-the-floor-picture-id1326505439?k=20&m=1326505439&s=612x612&w=0&h=2KB_p75RhUmp9__OFa9Sx6x8AQQFD1PI5JHOMz_zjD0=",
+        image: formacion,
       },
 ]
 

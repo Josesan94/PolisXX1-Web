@@ -66,7 +66,7 @@ export const ParticipationLayout = () => {
                 >
                     <Title
                         type='sky-1'
-                        placeholder='Eventos y Seminarios'
+                        placeholder='Nuestro Equipo'
                         position='center'
                     />
                 </motion.div>

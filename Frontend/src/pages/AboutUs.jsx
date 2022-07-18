@@ -1,9 +1,9 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
-import CardUs from '../components/aboutUs/CardUs/CardUs'
+import CardFounders from '../components/aboutUs/CardUs/CardFounders'
 import AboutUsDescription from '../components/description/AboutUsDescription'
 import HeaderPages from '../components/headerPages/HeaderPages'
-import { INFO_CARDS_US } from '../mocks/cardsInfoUsMock'
+import { INFO_CARDS_FOUNDERS_US } from '../mocks/cardsInfoUsMock'
 
 function AboutUs() {
 
@@ -12,7 +12,7 @@ function AboutUs() {
             <HeaderPages />
             <AboutUsDescription />
             <Container className='my-5'>
-                <CardUs infoCardsUs={INFO_CARDS_US} />
+                <CardFounders infoCardsFoundersUs={INFO_CARDS_FOUNDERS_US} />
             </Container>
         </div>
     )

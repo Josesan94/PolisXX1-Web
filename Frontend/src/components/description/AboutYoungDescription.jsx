@@ -4,11 +4,12 @@ import { Container } from 'react-bootstrap';
 import { useInView } from 'react-intersection-observer';
 import { motion, useAnimation } from 'framer-motion/dist/framer-motion';
 import { AXES_INFO_YOUNG_ABOUT_FINANCIAMIENTO_ITEMS, AXES_INFO_YOUNG_ABOUT_ITEMS } from '../../mocks/axesInfoInvironment';
-import { INFO_CARDS_US } from '../../mocks/cardsInfoUsMock';
+import { INFO_CARDS_YOUNG_US } from '../../mocks/cardsInfoUsMock';
 import ItemAxes2 from '../itemAxes/ItemAxes2';
-import CardUs from '../aboutUs/CardUs/CardUs';
+import CardUs from '../aboutUs/CardUs/CardYoungTeam';
 import Title from '../title/Title';
 import './description.css'
+import YoungsterTeam from '../youngsters/YoungsterTeam';
 
 
 
@@ -157,7 +158,7 @@ export const AboutYoungDescription = () => {
                   <a href="../assets/files/ProyectoJóvenesXXI-dic2020.pdf" download="ProyectoJóvenesXXI-dic2020.pdf">Proyecto Jóvenes XXI 2020</a>
             </div> */}
             <Container className='my-5'>
-                <CardUs infoCardsUs={INFO_CARDS_US} />
+                <YoungsterTeam infoCardsYoungUs={INFO_CARDS_YOUNG_US}/>
             </Container>
         </Container>
     )

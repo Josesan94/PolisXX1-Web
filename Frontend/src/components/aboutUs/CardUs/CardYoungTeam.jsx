@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import Title from "../../title/Title";
 import './cardUs.css'
 
-const CardUs = ({ infoCardsUs }) => {
+const CardUs = ({ infoCardsYoungUs }) => {
     return (
         <div>
             <hr />
@@ -14,8 +14,8 @@ const CardUs = ({ infoCardsUs }) => {
                 position='center'
             />
             <div className="row row-cols-2 row-cols-md-5 justify-content-center align-items-center">
-                {infoCardsUs && (
-                    infoCardsUs.map((card, i) => (
+                {infoCardsYoungUs && (
+                    infoCardsYoungUs.map((card, i) => (
                         <div className="person-container" key={i}>
                             <div className="img-us-container">
                                 <img
