@@ -1,5 +1,6 @@
-import React,{useState,useMemo, useCallback} from 'react';
+import React,{useState,useMemo, useEffect, useInView} from 'react';
 import { Link } from 'react-router-dom';
+import { motion, useAnimation } from 'framer-motion/dist/framer-motion';
 import {Calendar, dateFnsLocalizer} from 'react-big-calendar';
 import format from 'date-fns/format';
 import parse from 'date-fns/parse';
@@ -112,7 +113,6 @@ const EventsCalendar = () => {
 
   const { defaultDate, messages } = useMemo(
     () => ({
-      defaultDate: new Date(2015, 3, 1),
       messages: lang[culture],
     }),
     [culture]
@@ -120,37 +120,50 @@ const EventsCalendar = () => {
 
   return (
     <Container>
-      <div className=' go-back my-5 text-description'>
-                <Link style={{color:"#662581"}} to="/youngsters">Volver a Jóvenes</Link>
-            </div>
-            <div>
-           
-            </div>
-      <Calendar
-        culture={culture}
-        defaultDate={defaultDate}
-        localizer={localizer}
-        events={allEvents}
-        startAccessor="start"
-        endAccessor="end"
-        messages={messages}
-        style={{ height: 500, margin: "50px" }}
-        onDoubleClickEvent={openEvent}
-        
-      />
-      <EventModal lgShow={evShow} setLgShow={setEvShow} fullscreen={fullscreen} infoModal={eventModal} />
-      <div> 
-      </div>
-      <div>
-        <p className=' mx-5 text-description my-5'>
-        Si te interesa participar de la Comunidad Jóvenes XXI y recibir todas las novedades, inscribite completando <strong> <a href="https://forms.gle/ZAk8MXMh4yySFhkFA">este formulario.</a></strong>  
-        <br/>
-        <br/>
-        Al realizar tu inscripción recibirás un email de bienvenida con indicaciones.
-        </p>
-      </div>
+      <motion.div
+        initial={{ x: "100vw" }}
+        animate={{ x: 0 }}
+        transition={{ type: "spring", delay: 0.5 }}
+      >
+        <div className=" go-back my-5 text-description">
+          <Link style={{ color: "#662581" }} to="/youngsters">
+            Volver a Jóvenes
+          </Link>
+        </div>
+
+        <Calendar
+          culture={culture}
+          localizer={localizer}
+          events={allEvents}
+          startAccessor="start"
+          endAccessor="end"
+          messages={messages}
+          style={{ height: 500, margin: "50px" }}
+          onDoubleClickEvent={openEvent}
+        />
+        <EventModal
+          lgShow={evShow}
+          setLgShow={setEvShow}
+          fullscreen={fullscreen}
+          infoModal={eventModal}
+        />
+        <div></div>
+        <div>
+          <p className=" mx-5 text-description my-5">
+            Si te interesa participar de la Comunidad Jóvenes XXI y recibir
+            todas las novedades, inscribite completando{" "}
+            <strong>
+              {" "}
+              <a href="https://forms.gle/ZAk8MXMh4yySFhkFA">este formulario.</a>
+            </strong>
+            <br />
+            <br />
+            Al realizar tu inscripción recibirás un email de bienvenida con
+            indicaciones.
+          </p>
+        </div>
+      </motion.div>
     </Container>
-    
   );
 }
 

@@ -2,12 +2,16 @@ import Nosotros from '../assets/cards/nosotros2.jpg'
 import Proximos from '../assets/cards/Próximoseventos.png'
 import Sumate from '../assets/cards/sumate2.jpg'
 
+const renderForm = () => {
+  return  <span>Si querés recibir las novedades sobre seminarios y eventos, podés contactarte a través de nuestro <a className='text-description' style={{ color:"blue"}} href='https://forms.gle/ZAk8MXMh4yySFhkFA'>Formulario de suscripción</a></span>;
+}
+
 export const AXES_INFO_YOUNGSTERS = [
   {
     id: 1,
     title: "Nosotros",
     list: {
-      item_1: "¿Qué es Jóvenes XXI",
+      item_1: "¿Qué es Jóvenes XXI?",
       item_2: "¿Qué hacemos?",
       item_3: "Nuestro rol",
       item_4: "Financiamiento",
@@ -45,25 +49,22 @@ export const AXES_INFO_YOUNGSTERS = [
     id: 3,
     title: "Próximos Eventos ",
     list: {
-      item_1: ">>> 18 EVENTOS >>> ",
-      item_2: "IMPRESION 3D",
-      item_3: "PYTHON 2019",
-      item_4: "NIC BLOCKCHAIN",
+      item_1: "Calendario de eventos",
     },
     position: "",
     text: "Calendario mensual donde se visualizarán los eventos del mes",
-    link: "/youngsters/events",
+    link: "/youngsters/calendar",
     image: Proximos,
   },
   {
     id: 4,
     title: "Sumate",
     list: {
-      item_1: "Formulario de Suscripción",
+      item_1: "Formulario de suscripción"
     },
     position: "alt",
-    text: "Si querés recibir las novedades sobre seminarios y eventos, podés contactarte a través de nuestro formulario de suscripción.",
-    link: "/youngsters/participation/#nextEvents",
+    text: renderForm(),
+    link: "",
     image: Sumate,
   },
 ];
