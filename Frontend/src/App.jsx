@@ -22,6 +22,7 @@ import { AboutYoungDescription } from "./components/description/AboutYoungDescri
 import { ParticipationLayout } from "./components/youngsters/ParticipationLayout";
 import EnvironmentProjects from "./components/Environment/EnvironmentProjects";
 import EnvironmentFormation from "./components/Environment/EnvironmentFormation";
+import EventsCalendar from "./components/youngsters/calendar";
 
 function App() {
   const location = useLocation();
@@ -50,7 +51,7 @@ function App() {
           <Route exact path="/youngsters/about" element={<AboutYoungDescription />} />
           <Route exact path="/youngsters/participation" element={<ParticipationLayout />} />
           <Route exact path="/youngsters/events" element={<ParticipationLayout />} />
-
+          <Route exact path="/youngsters/calendar" element={<EventsCalendar />} />
 
           <Route exact path="/institutions" element={<Institutions />} />
           
