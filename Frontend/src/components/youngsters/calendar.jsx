@@ -11,6 +11,7 @@ import Es from 'date-fns/locale/es'
 import DatePicker from 'react-datepicker';
 import { EventModal } from './EventModal';
 import { Container } from 'react-bootstrap';
+import Title from '../title/Title';
 import './stylesSwiper.css'
 
 require('globalize/lib/cultures/globalize.culture.es')
@@ -130,7 +131,20 @@ const EventsCalendar = () => {
             Volver a Jóvenes
           </Link>
         </div>
-
+        <Title
+          type="sky-1"
+          placeholder="JÓVENES XXI: CALENDARIO DE ACTIVIDADES Y EVENTOS"
+          position="center"
+        />
+        <motion.p
+          className="text-description mx-5 my-4 justify-content-center "
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.5, duration: 1.5, stiffness: 5 }}
+        >
+          Acá podés ver todos los eventos de los que participamos e inscribirte
+          a nuestros webinar.
+        </motion.p>
         <Calendar
           culture={culture}
           localizer={localizer}
