@@ -60,3 +60,17 @@ padding: 1rem !important;
 .modal-carousel:before{
   content:'';
 }
+
+.text-description{
+  font-family: Montserrat, Helvetica, Times, serif;
+  text-align: justify;
+  font-size: 15px;
+  letter-spacing: 0.05mm;
+  word-spacing: 0.2mm;
+}
+
+@media (max-width: 640px) {
+  .go-back {
+      text-align:center;
+  }
+}

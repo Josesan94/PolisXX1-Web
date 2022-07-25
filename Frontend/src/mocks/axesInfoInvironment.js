@@ -35,7 +35,7 @@ export const AXES_INFO_INVIRONMENT = [
           item_4: "",
         },
         position: "alt",
-        text: "Chequeá las notas,encuestas y reportajes que realizamos",
+        text: "Chequeá las notas, encuestas y reportajes que realizamos",
         links: {
           link_1: "/youngsters/participation/#webinars",
           link_2: "/youngsters/participation/#nextEvents",

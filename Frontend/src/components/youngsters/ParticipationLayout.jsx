@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import { Card, Container, ListGroup, ListGroupItem } from 'react-bootstrap';
 import { useInView } from 'react-intersection-observer';
 import { motion, useAnimation } from 'framer-motion/dist/framer-motion';
@@ -58,6 +59,9 @@ export const ParticipationLayout = () => {
 
     return (
         <Container>
+            <div className=' go-back my-5 text-description'>
+                <Link style={{color:"#662581"}} to="/youngsters">Volver a Jóvenes</Link>
+            </div>
             <div className='mb-5'>
                 <motion.div
                     initial={{ x: '100vw' }}

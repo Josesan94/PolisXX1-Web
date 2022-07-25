@@ -1,5 +1,6 @@
 import React from 'react'
 import {useEffect} from 'react';
+import { Link } from 'react-router-dom';
 import {motion, useAnimation} from 'framer-motion/dist/framer-motion';
 import {useInView} from 'react-intersection-observer';
 import { Container } from 'react-bootstrap';
@@ -30,6 +31,9 @@ const EnvironmentFormation = () => {
     
   return (
     <Container>
+      <div className=' go-back my-5 text-description'>
+                <Link style={{color:"#662581"}} to="/environment">Volver a Ambiente</Link>
+            </div>
         <motion.div
           initial={{ x: "100vw" }}
           animate={{ x: 0 }}

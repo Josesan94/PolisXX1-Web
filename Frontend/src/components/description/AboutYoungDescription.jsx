@@ -40,7 +40,9 @@ export const AboutYoungDescription = () => {
     return (
 
         <Container >
-
+            <div className=' go-back my-5 text-description'>
+                <Link style={{color:"#662581"}} to="/youngsters">Volver a Jóvenes</Link>
+            </div>
             <div>
                 <motion.div
                     initial={{ x: '100vw' }}
@@ -49,7 +51,7 @@ export const AboutYoungDescription = () => {
                 >
                     <Title
                         type='sky-1'
-                        placeholder='¿ Que es Jóvenes XXI ?'
+                        placeholder='¿ QUE ES JÓVENES XXI ?'
                         position='center'
                     />
                 </motion.div>
