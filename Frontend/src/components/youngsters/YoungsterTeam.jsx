@@ -26,7 +26,7 @@ const YoungsterTeam = ({infoCardsYoungUs}) => {
         >
           <Title
             type="sky-1"
-            placeholder="Eventos y Seminarios"
+            placeholder="Nuestro Equipo"
             position="center"
           />
         </motion.div>
@@ -66,7 +66,7 @@ const YoungsterTeam = ({infoCardsYoungUs}) => {
             <div className="mx-3">
               <Card className="d-flex flex-column align-items-center slider-item">
                 <div className="mt-3">
-                  <Card.Img className="img_1" variant="top" src={card.img} />
+                  <Card.Img className="img-young" variant="top" src={card.img} />
                 </div>
                 <Card.Body>
                   <ListGroup variant="flush">

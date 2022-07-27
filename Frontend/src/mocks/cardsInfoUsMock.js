@@ -1,7 +1,7 @@
-import maroñas from '../assets/AboutUs/Abel-Maroñas.jpg'
-import Alfonzo from '../assets/AboutUs/Celeste-Alfonzo.jpg'
+import maroñas from '../assets/AboutUs/Abel_Maroñas.jpg'
+import Alfonzo from '../assets/AboutUs/Celeste_Alfonzo.jpg'
 import Giudice from '../assets/AboutUs/GiudiceMatias.jpeg'
-import Perpetua from '../assets/AboutUs/Joel-Perpetua.jpg'
+import Perpetua from '../assets/AboutUs/Joel_Perpetua.jpg'
 import Moreno from '../assets/AboutUs/Nora-Moreno.jpg'
 import Pereyra from '../assets/AboutUs/Pereyra.jpg'
 import Saraceno from '../assets/AboutUs/Santiago-Saraceno.jpg'
@@ -18,14 +18,14 @@ import Naceli from '../assets/youngs/naceli.jpg'
 import notas from '../assets/cards/CARD-AMBIENTE-NOTAS.png'
 
 export const INFO_CARDS_YOUNG_US = [
-    // {
-    //     id: 1,
-    //     name: 'Abel Moraños',
-    //     title: "Abogado",
-    //     text:"",
-    //     img: maroñas,
-    //     linkedin_link: "https://www.linkedin.com"
-    // },
+    {
+        id: 1,
+        name: 'Abel Maroñas',
+        title: "Abogado",
+        text:"",
+        img: maroñas,
+        linkedin_link: "https://www.linkedin.com"
+    },
     {
         id: 2,
         name: 'Celeste Alfonzo',
