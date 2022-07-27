@@ -29,24 +29,6 @@ export const AXES_INFO_YOUNGSTERS = [
   },
   {
     id: 2,
-    title: "Participaciones",
-    list: {
-      item_1: "Eventos y seminarios",
-      item_2: "Webinars",
-    },
-    position: "alt",
-    text: "Conocé las capacitaciones que se llevaron a cabo",
-    image_maian: "",
-    links: {
-      link_1: "/youngsters/participation/#webinars",
-      link_2: "/youngsters/participation/#nextEvents",
-      link_3: "",
-    },
-    link: "/youngsters/participation",
-    image: Proximos
-  },
-  {
-    id: 3,
     title: "Próximos Eventos ",
     list: {
       item_1: "Calendario de eventos",
@@ -56,6 +38,26 @@ export const AXES_INFO_YOUNGSTERS = [
     link: "/youngsters/calendar",
     image: Proximos,
   },
+  {
+    id: 3,
+    title: "Participaciones",
+    list: {
+      item_1:"",
+      item_2: "Eventos y seminarios",
+      item_3: "Webinars",
+    },
+    position: "alt",
+    text: "Conocé las capacitaciones que se llevaron a cabo",
+    image_maian: "",
+    links: {
+      link_1: "/youngsters/participation/#nextEvents",
+      link_2: "/youngsters/participation/#webinars",
+      link_3: "",
+    },
+    link: "/youngsters/participation",
+    image: Proximos
+  },
+  
   {
     id: 4,
     title: "Sumate",

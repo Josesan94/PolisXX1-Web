@@ -17,8 +17,8 @@ export const FooterPolis = () => {
                     <div className="footer-col ">
                         <h2>Nosotros</h2>
                         <ul>
-                            <li><Link to='/aboutUs'>Valores y Objetivos</Link></li>
-                            <li><Link to='/youngsters/about'>Nuestro equipo</Link></li>
+                            <li><Link to='aboutUs/#aboutUs' onClick={() => window.location.replace("/aboutUs/#aboutUs")}>Valores y Objetivos</Link></li>
+                            <li><Link to='/aboutUs/#nuestroEquipo' onClick={() => window.location.replace("/aboutUs/#nuestroEquipo")}>Nuestro equipo</Link></li>
                         </ul>
                     </div>
                     <div className="footer-col">

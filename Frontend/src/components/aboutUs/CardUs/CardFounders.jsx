@@ -6,7 +6,7 @@ import './cardUs.css'
 
 const CardFounders = ({ infoCardsFoundersUs }) => {
     return (
-        <div>
+        <div id="nuestroEquipo">
             <hr />
             <Title
                 type='violet-1'

@@ -62,7 +62,7 @@ export const ParticipationLayout = () => {
             <div className=' go-back my-5 text-description'>
                 <Link style={{color:"#662581"}} to="/youngsters">Volver a Jóvenes</Link>
             </div>
-            <div className='mb-5'>
+            <div className='mb-5' id="nextEvents">
                 <motion.div
                     initial={{ x: '100vw' }}
                     animate={{ x: 0 }}
@@ -70,7 +70,7 @@ export const ParticipationLayout = () => {
                 >
                     <Title
                         type='sky-1'
-                        placeholder='Nuestro Equipo'
+                        placeholder='Eventos y seminarios'
                         position='center'
                     />
                 </motion.div>
@@ -218,14 +218,14 @@ export const ParticipationLayout = () => {
                 <WebinarModal lgShow={webShow} setLgShow={setWebShow} fullscreen={fullscreen} infoModal={webinarModal} />
             </div>
             <hr />
-            <div className='my-5' id="nextEvents">
+            {/* <div className='my-5' >
                 <Title
                     type='violet-1'
                     placeholder='Proximos eventos'
                     position='center'
                 />
                 <ContactForm />
-            </div>
+            </div> */}
 
         </Container>
     )

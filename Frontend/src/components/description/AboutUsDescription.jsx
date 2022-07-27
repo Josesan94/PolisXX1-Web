@@ -31,7 +31,7 @@ function AboutUsDescription() {
 
     return (
         <Container >
-            <div>
+            <div id="AboutUs">
                 <motion.div
                     initial={{ x: '100vw' }}
                     animate={{ x: 0 }}
