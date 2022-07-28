@@ -16,7 +16,7 @@ export const AXES_INFO_INVIRONMENT = [
           
         },
         position: "",
-        text: "Te mostramos un poco mas de nuestra biografía y sobre cada uno de nuestros integrantes",
+        text: "Te mostramos un poco mas de nuestra biografía y sobre cada uno de nuestros integrantes.",
         links: {
           link_1: "/environment/projects",
           link_2: "/environment/projects",
@@ -35,7 +35,7 @@ export const AXES_INFO_INVIRONMENT = [
           item_4: "",
         },
         position: "alt",
-        text: "Chequeá las notas, encuestas y reportajes que realizamos",
+        text: "Chequeá las notas, encuestas y reportajes que realizamos.",
         links: {
           link_1: "",
           link_2: "",
@@ -65,7 +65,7 @@ export const AXES_INFO_INVIRONMENT = [
           item_1: "CURSO DE FORMACIÓN EN POLÍTICAS PÚBLICAS AMBIENTALES.",
         },
         position: "alt",
-        text: "Enterate de las últimas novedades en materia de normativa ambiental",
+        text: "Podes acceder a nuestros cursos, conferencias, talleres y webinars disponibles.",
         link: "/environment/formation",
         image: formacion,
       },
