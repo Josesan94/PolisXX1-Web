@@ -54,7 +54,7 @@ export const AXES_INFO_INVIRONMENT = [
           item_4: "",
         },
         position: "",
-        text: "Enterate de las ultimas normativas ambientales recientemente legisladas.",
+        text: "Enterate de las últimas novedades en materia de normativa ambiental.",
         link: "/youngsters/events",
         image: normativa,
       },
