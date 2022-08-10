@@ -6,6 +6,10 @@ import Title from '../title/Title';
 import ItemAxes from '../itemAxes/ItemAxes';
 import { AXES_INFO_INVIRONMENT_ITEMS } from '../../mocks/axesInfoInvironment';
 import './description.css'
+import Docente from '../../assets/cards/docente.png'
+import Memoria from '../../assets/cards/justicia.png'
+import Educacion from '../../assets/cards/ODS4.png'
+
 
 function InstitutionsDescription() {
 
@@ -104,14 +108,19 @@ function InstitutionsDescription() {
                         Todas las acciones del eje de Fortalecimiento Institucional se inscriben y guían por los lineamientos de los Objetivos de Desarrollo Sostenible plasmados en la Agenda 2030 de las Naciones Unidas:
                     </motion.p>
                     <motion.ul className='p-0 p-md-4 text-description' animate={animationLeft}>
-                        <li><p ><strong>-</strong> ODS 4 «Garantizar una educación inclusiva, equitativa y de calidad y promover oportunidades de aprendizaje durante toda la vida para todos», </p></li>
-                        <li><p ><strong>-</strong> ODS 8 «promover el crecimiento económico inclusivo y sostenible, el empleo y el trabajo decente para todos»</p></li>
+                        <li><p ><strong>-</strong> ODS 4 «Garantizar una educación inclusiva, equitativa y de calidad y promover oportunidades de aprendizaje durante toda la vida para todos», </p>
+                        <img style={{margin:"40px"}} src={Educacion} alt="educacion"></img>
+                        </li>
+                        <li><p ><strong>-</strong> ODS 8 «promover el crecimiento económico inclusivo y sostenible, el empleo y el trabajo decente para todos»</p>
+                        <img style={{margin:"40px"}} src={Docente} alt="Docente"></img>
+                        </li>
                         <li><p ><strong>-</strong> ODS 16 «Promover sociedades justas, pacíficas e inclusivas».</p>
+                        <img style={{margin:"40px"}} src={Memoria} alt="Memoria"></img>
                             <ul>
                                 <li > <p><strong>.</strong> 16.5 Reducir considerablemente la corrupción y el soborno en todas sus formas; </p></li>
                                 <li > <p><strong>.</strong> Crear a todos los niveles instituciones eficaces y transparentes que rindan cuentas; </p></li>
                                 <li > <p><strong>.</strong> 16.7 Garantizar la adopción en todos los niveles de decisiones inclusivas, participativas y representativas que respondan a las necesidades; </p></li>
-                                <li > <p><strong>.</strong> 16.10 Garantizar el acceso público a la información y proteger las libertades fundamentales, de conformidad con las leyes nacionales y los acuerdos internacionales</p></li>
+                                <li ><p><strong>.</strong> 16.10 Garantizar el acceso público a la información y proteger las libertades fundamentales, de conformidad con las leyes nacionales y los acuerdos internacionales</p></li>
                             </ul>
                         </li>
                     </motion.ul>
