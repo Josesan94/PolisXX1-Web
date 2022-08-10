@@ -22,7 +22,7 @@ import { AboutYoungDescription } from "./components/description/AboutYoungDescri
 import { ParticipationLayout } from "./components/youngsters/ParticipationLayout";
 import EnvironmentProjects from "./components/Environment/EnvironmentProjects";
 import EnvironmentFormation from "./components/Environment/EnvironmentFormation";
-import EventsCalendar from "./components/youngsters/calendar";
+import EventsCalendar from "./components/youngsters/Calendar/calendar";
 
 function App() {
   const location = useLocation();
@@ -36,7 +36,7 @@ function App() {
         <HeaderMain />
       }
       <SidebarRedes />
-      <div className="bg-container-main mb-3">
+      <div className="bg-container-main mb-5">
         <Routes >
           {/* pages */}
           <Route path="/" element={<Home />} />

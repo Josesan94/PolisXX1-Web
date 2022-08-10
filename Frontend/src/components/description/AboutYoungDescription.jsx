@@ -10,6 +10,7 @@ import CardUs from '../aboutUs/CardUs/CardYoungTeam';
 import Title from '../title/Title';
 import './description.css'
 import YoungsterTeam from '../youngsters/YoungsterTeam';
+import KeyboardReturnTwoTone from '@material-ui/icons/KeyboardReturnTwoTone';
 
 
 
@@ -41,7 +42,7 @@ export const AboutYoungDescription = () => {
 
         <Container >
             <div className=' go-back my-5 text-description'>
-                <Link style={{color:"#662581"}} to="/youngsters">Volver a Jóvenes</Link>
+                <Link style={{color:"#662581"}} to="/youngsters"><KeyboardReturnTwoTone fontSize="large"/></Link>
             </div>
             <div>
                 <motion.div

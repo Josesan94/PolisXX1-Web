@@ -1,9 +1,8 @@
 import React from "react";
-import './footerPolis.css'
-
-// react-icons
-import { FaArrowCircleUp, FaArrowUp, FaFacebookSquare, FaFrog, FaInstagramSquare, FaTwitterSquare,FaTelegram,FaDiscord,FaLinkedin } from 'react-icons/fa';
 import { Link } from "react-router-dom";
+import './footerPolis.css'
+import { FaArrowCircleUp, FaArrowUp, FaFacebookSquare, FaFrog, FaInstagramSquare, FaTwitterSquare,FaTelegram,FaDiscord,FaLinkedin } from 'react-icons/fa';
+import EnterprisesSlider from "./enterprisesSlider";
 
 export const FooterPolis = () => {
     const scrollToTop = () => {
@@ -11,6 +10,7 @@ export const FooterPolis = () => {
     }
 
     return (
+        <>
         <footer className="footer-polis justify-content-center align-items-center">
             <div className="container-polis">
                 <div className="row justify-content-center ">
@@ -42,7 +42,7 @@ export const FooterPolis = () => {
                         </div>
                     </div>
                 </div>
-
+                <br />
                 <br />
                 <div className="rights-polis">
                     <p>  FrogDevs ©Derechos reservados </p>
@@ -51,6 +51,8 @@ export const FooterPolis = () => {
             </div>
 
         </footer>
+        <EnterprisesSlider/>
+        </>
 
     )
 }

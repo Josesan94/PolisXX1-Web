@@ -34,8 +34,6 @@ const HeaderPages = () => {
           <>
             <h1 className="text-start my-5 title-header-pages">NOVEDADES</h1>
             <h5 className="text-main text-header-pages">
-              Lorem fistrum por la gloria de mi madre esse jarl aliqua llevame
-              al sircoo
             </h5>
           </>
         )}
@@ -44,10 +42,6 @@ const HeaderPages = () => {
             <h1 className="text-start my-5 title-header-pages">
               PARTICIPÁ / COLABORÁ
             </h1>
-            <h5 className="text-main text-header-pages">
-              Lorem fistrum por la gloria de mi madre esse jarl aliqua llevame
-              al sircoo
-            </h5>
           </>
         )}
       </div>

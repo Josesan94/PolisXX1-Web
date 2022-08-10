@@ -28,7 +28,7 @@ const CardFounders = ({ infoCardsFoundersUs }) => {
                                 <div className="divider-us"></div>
                                 <span className="name-us">{card.name}</span>
                                 <span className="profession-us">{card.title}</span>
-                                <Link to={card.linkedin_link} target="_blank"><img className="icono-linkedin" src={icono_linkedin} alt="linkedin-icono" /></Link>
+                                <a href={card.linkedin_link}><img className="icono-linkedin" src={icono_linkedin} alt="linkedin-icono" /></a>
                             </div>
                         </div>
                     ))

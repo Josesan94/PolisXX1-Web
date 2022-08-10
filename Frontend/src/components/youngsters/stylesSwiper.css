@@ -74,6 +74,18 @@ padding: 1rem !important;
   word-spacing: 0.2mm;
 }
 
+.calendar-container{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.violet-3{
+  color: #662581;
+  font-size: 20px !important;
+  font-weight: 600 !important;
+}
+
 @media (max-width: 640px) {
   .go-back {
       text-align:center;
