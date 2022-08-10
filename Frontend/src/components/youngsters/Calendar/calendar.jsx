@@ -9,14 +9,16 @@ import getDay from 'date-fns/getDate';
 import 'react-big-calendar/lib/css/react-big-calendar.css';
 import Es from 'date-fns/locale/es'
 import DatePicker from 'react-datepicker';
-import { EventModal } from './EventModal';
+import { CalendarEvents } from './calendarEvents';
 import { Container } from 'react-bootstrap';
-import Title from '../title/Title';
-import './stylesSwiper.css'
+import Title from '../../title/Title';
+import '../stylesSwiper.css'
+import EventoImg from '../../../assets/cards/Próximoseventos.png'
+import KeyboardReturnTwoToneIcon from '@material-ui/icons/KeyboardReturnTwoTone';
+
+
 
 require('globalize/lib/cultures/globalize.culture.es')
-
-
 
 const lang = {
   es: {
@@ -52,36 +54,20 @@ const events = [
     date:"",
     start: new Date(2022,6,10),
     end: new Date(2022,6,10),
-    texts: {
-      text_1:
-        "Texto 1",
-        text_2:"Texto 2"
-      },
-    footerText:
-      "",
-    image_main: "",
-    links: {
-    },
-    images: [
-    ],
+    text:"Evento 1",
+    image: EventoImg,
+    link:""
     },
   {
     id:"2",
     title:" Evento 2",
+    allDay:true,
+    date:"",
     start: new Date(2022,6,10),
     end: new Date(2022,6,10),
-    texts: {
-      text_1:
-        "Texto 1",
-        text_2:"Texto 2"
-    },
-    footerText:
-      "",
-    image_main: "",
-    links: {
-    },
-    images: [
-    ],
+    text:"Evento 2",
+    image: EventoImg,
+    link:""
   }
 ]
 
@@ -128,7 +114,7 @@ const EventsCalendar = () => {
       >
         <div className=" go-back my-5 text-description">
           <Link style={{ color: "#662581" }} to="/youngsters">
-            Volver a Jóvenes
+          <KeyboardReturnTwoToneIcon fontSize="large"/>   
           </Link>
         </div>
         <Title
@@ -145,6 +131,7 @@ const EventsCalendar = () => {
           Acá podés ver todos los eventos de los que participamos e inscribirte
           a nuestros webinar.
         </motion.p>
+        <div className='calendar-container'>
         <Calendar
           culture={culture}
           localizer={localizer}
@@ -152,16 +139,16 @@ const EventsCalendar = () => {
           startAccessor="start"
           endAccessor="end"
           messages={messages}
-          style={{ height: 500, margin: "50px" }}
+          style={{ height: 500, margin: "10px" }}
           onDoubleClickEvent={openEvent}
         />
-        <EventModal
+        <CalendarEvents
           lgShow={evShow}
           setLgShow={setEvShow}
           fullscreen={fullscreen}
           infoModal={eventModal}
         />
-        <div></div>
+        </div>
         <div>
           <p className=" mx-5 text-description my-5">
             Si te interesa participar de la Comunidad Jóvenes XXI y recibir
