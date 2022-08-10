@@ -7,6 +7,7 @@ import { Container } from 'react-bootstrap';
 import Title from '../title/Title';
 import ItemAxes from '../itemAxes/ItemAxes';
 import { AXES_INFO_INVIRONMENT_PROJECTS } from '../../mocks/axesInfoInvironment';
+import KeyboardReturnTwoTone from '@material-ui/icons/KeyboardReturnTwoTone';
 
 
 
@@ -35,7 +36,7 @@ const EnvironmentProjects = () => {
   return (
     <Container>
       <div className=' go-back my-5 text-description'>
-                <Link style={{color:"#662581"}} to="/environment">Volver a Ambiente</Link>
+                <Link style={{color:"#662581"}} to="/environment"><KeyboardReturnTwoTone fontSize="Large"/></Link>
             </div>
         <motion.div
           initial={{ x: "100vw" }}

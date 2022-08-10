@@ -14,6 +14,7 @@ import "swiper/swiper.min.css";
 import './stylesSwiper.css'
 import { WebinarModal } from './WebinarModal';
 import { ContactForm } from '../contactForm/ContactForm';
+import KeyboardReturnTwoToneIcon from '@material-ui/icons/KeyboardReturnTwoTone';
 
 SwiperCore.use([Pagination]);
 
@@ -59,10 +60,10 @@ export const ParticipationLayout = () => {
 
     return (
         <Container>
-            <div className=' go-back my-5 text-description'>
-                <Link style={{color:"#662581"}} to="/youngsters">Volver a Jóvenes</Link>
+            <div className=' go-back my-5 text-description' id="nextEvents" >
+                <Link style={{color:"#662581"}} to="/youngsters"><KeyboardReturnTwoToneIcon fontSize="large"/></Link>
             </div>
-            <div className='mb-5' id="nextEvents">
+            <div className='mb-5' >
                 <motion.div
                     initial={{ x: '100vw' }}
                     animate={{ x: 0 }}
@@ -74,7 +75,7 @@ export const ParticipationLayout = () => {
                         position='center'
                     />
                 </motion.div>
-                <div>
+                <div id="webinars">
                     <Swiper
                         slidesPerView={4}
                         grid={{
@@ -140,7 +141,8 @@ export const ParticipationLayout = () => {
                 <EventModal lgShow={evShow} setLgShow={setEvShow} fullscreen={fullscreen} infoModal={eventModal} />
             </div>
             <div className='my-5'
-                id="webinars">
+                >
+                    <div >
                 <motion.div
                     initial={{ x: '100vw' }}
                     animate={{ x: 0 }}
@@ -152,6 +154,7 @@ export const ParticipationLayout = () => {
                         position='center'
                     />
                 </motion.div>
+                </div>
                 <div>
                     <Swiper
                         slidesPerView={4}

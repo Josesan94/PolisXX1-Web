@@ -6,6 +6,7 @@ import {useInView} from 'react-intersection-observer';
 import { Container } from 'react-bootstrap';
 import Title from '../title/Title';
 import { AXES_INFO_INVIRONMENT_FORMATION } from '../../mocks/axesInfoInvironment';
+import KeyboardReturnTwoTone from '@material-ui/icons/KeyboardReturnTwoTone';
 
 const EnvironmentFormation = () => {
 
@@ -32,7 +33,7 @@ const EnvironmentFormation = () => {
   return (
     <Container>
       <div className=' go-back my-5 text-description'>
-                <Link style={{color:"#662581"}} to="/environment">Volver a Ambiente</Link>
+                <Link style={{color:"#662581"}} to="/environment"><KeyboardReturnTwoTone fontSize="large"/></Link>
             </div>
         <motion.div
           initial={{ x: "100vw" }}
