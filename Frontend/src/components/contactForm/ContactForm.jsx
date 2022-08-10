@@ -2,12 +2,13 @@ import React from 'react'
 import { useFormik } from 'formik';
 import * as yup from 'yup';
 import Button from '@material-ui/core/Button';
+
 import TextField from '@material-ui/core/TextField';
-import { Row } from 'react-bootstrap';
 import './contactForm.css'
 import ButtonPolis from '../button/ButtonPolis';
 import Title from '../title/Title';
-
+import emailjs from '@emailjs/browser';
+import { TextareaAutosize } from '@material-ui/core';
 export const ContactForm = () => {
 
     const validationSchema = yup.object({
@@ -21,6 +22,10 @@ export const ContactForm = () => {
             .string('Ingrese su email')
             .email('Ingrese un email valido')
             .required('Su email es requerido'),
+        description: yup
+        .string('Ingrese un mensaje')
+        .required('El mensaje es requerido')
+        .max(500,'El mensaje no puede contener mas de 500 caractéres')             
     });
 
     const formik = useFormik({
@@ -28,13 +33,30 @@ export const ContactForm = () => {
             name: '',
             lastName: '',
             email: '',
+            description:''
         },
         validationSchema: validationSchema,
-        onSubmit: (values) => {
-            alert(JSON.stringify(values, null, 2));
+        onSubmit: (values, { setSubmitting, resetForm,}) => {
+            sendEmail(values)
+            alert(
+                "Thank you for the submission. Korionna will be in contact with you shortly"
+              );
+              setSubmitting(false);
+              resetForm();
         },
     });
 
+    const sendEmail = (value) => {
+        
+    
+        emailjs.send('service_1ffr9zb', 'template_yz5yhs3', value, 'dWjK4mM_MJAJJbRoR')
+          .then((result) => {
+              console.log(result.text);
+          }, (error) => {
+              console.log(error.text);
+          });
+    };
+ 
     return (
         <div className="form-conteiner form-login">
             <Title
@@ -42,9 +64,9 @@ export const ContactForm = () => {
                         placeholder='Formá parte de nuestra comunidad y no te pierdas ninguna de nuestras novedades, eventos o informes.  ¡Cada día somos más!'
                         position='center'
                     />
-            <form onSubmit={formik.handleSubmit} className="">
-                <div>
-                    <Row xxs={1} md={3} className="d-flex justify-content-center m-auto align-items-center">
+            <form onSubmit={formik.handleSubmit} >
+                <div className="form-container">
+                    
                         <TextField
                             className='input-login mb-2 '
                             id="name"
@@ -59,15 +81,13 @@ export const ContactForm = () => {
                             className='input-login mb-2 '
                             id="lastName"
                             name="lastName"
+                            control="textarea"
                             label="Apellido"
                             value={formik.values.lastName}
                             onChange={formik.handleChange}
                             error={formik.touched.lastName && Boolean(formik.errors.lastName)}
                             helperText={formik.touched.lastName && formik.errors.lastName}
                         />
-
-                    </Row>
-                    <Row xxs={1} md={3} className="d-flex justify-content-center  m-auto">
                         <TextField
                             className='input-login mb-2'
                             id="email"
@@ -78,7 +98,16 @@ export const ContactForm = () => {
                             error={formik.touched.email && Boolean(formik.errors.email)}
                             helperText={formik.touched.email && formik.errors.email}
                         />
-                    </Row>
+                        <TextareaAutosize
+                            aria-label="minimum height"
+                            minRows={4} 
+                            style={{ width: 400 }}
+                            id="description"
+                            name="description"
+                            placeholder="Mensaje..."
+                            value={formik.values.description}
+                            onChange={formik.handleChange}
+                            />
                     <div className="w-75 d-flex justify-content-center m-auto">
                         <ButtonPolis type='submit' placeholder={'Suscribirse'} />
                     </div>

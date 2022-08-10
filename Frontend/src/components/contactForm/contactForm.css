@@ -28,11 +28,9 @@
 }
 .input-login {
     margin: 1rem !important;
-    padding: 0.3rem;
     border-radius: 0.3rem;
     padding: 0.2rem;
     color: white !important;
-
 }
 
 /* Mui classes */
@@ -53,4 +51,11 @@
 }
 .MuiInput-underline:before {
     border-bottom: 1px solid white !important;
+}
+
+.form-container{
+    display:flex;
+    flex-direction:column;
+    align-items:center
+    
 }
