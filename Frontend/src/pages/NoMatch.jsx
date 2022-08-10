@@ -1,9 +1,10 @@
 import React from 'react'
+import WorkInProgress from '../components/WorkInProgress/wip'
 
 function NoMatch() {
     return (
         <div>
-            Nada para ver aqui.
+            <WorkInProgress/>
         </div>
     )
 }

@@ -29,7 +29,7 @@ export const AXES_INFO_INVIRONMENT = [
         id: 2,
         title: "Notas",
         list: {
-          item_1: "",
+          item_1: "NOTAS",
           item_2: "",
           item_3: "",
           item_4: "",
@@ -41,21 +41,21 @@ export const AXES_INFO_INVIRONMENT = [
           link_2: "",
           link_3: "",
         },
-        link: "/youngsters/participation",
+        link: "/404",
         image: notas,
       },
       {
         id: 3,
         title: "Normativa",
         list: {
-          item_1: " ",
+          item_1: "NORMATIVA",
           item_2: "",
           item_3: "",
           item_4: "",
         },
         position: "",
         text: "Enterate de las últimas novedades en materia de normativa ambiental.",
-        link: "/youngsters/events",
+        link: "/404",
         image: normativa,
       },
       {
@@ -70,6 +70,14 @@ export const AXES_INFO_INVIRONMENT = [
         image: formacion,
       },
 ]
+
+
+
+export const AXES_INFO_INVIRONMENT_NORMATIVE = [
+
+]
+
+
 
 export const AXES_INFO_INVIRONMENT_PROJECTS = [
   {
